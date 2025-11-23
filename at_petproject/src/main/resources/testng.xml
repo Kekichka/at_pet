@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="all test SUITE" verbose="5" data-provider-thread-count="6">
+    <test name="task 8 Test" thread-count="10" parallel="methods">
+        <parameter name="CityParameter" value="XmlCity"/>
+        <parameter name="StateParameter" value="XmlState"/>
+        <packages>
+            <package name="task8.*"/>
+        </packages>
+    </test>
+</suite>
