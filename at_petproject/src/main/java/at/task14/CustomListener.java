@@ -17,7 +17,6 @@ public class CustomListener implements ITestListener, ISuiteListener, IExecution
         logger.info("All tests in '" + context.getName() + "' have finished");
     }
 
-
     @Override
     public void onStart(ISuite suite) {
         logger.info("Starting test suite: " + suite.getName() + " ===");

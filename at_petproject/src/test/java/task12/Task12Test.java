@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class Task12Test {
+
     WebDriver driver;
 
     @BeforeTest
@@ -20,7 +21,7 @@ public class Task12Test {
     @Test
     void task12() {
         TextAreaBusinessObject textAreaBO = new TextAreaBusinessObject();
-        textAreaBO.signupAndFillTextArea("MEOW :333 !", driver);
+        textAreaBO.fillFirstNameField("AliceTest", driver);
     }
 
     @AfterTest

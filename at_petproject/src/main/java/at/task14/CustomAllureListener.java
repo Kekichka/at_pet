@@ -5,39 +5,24 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-
-import static at.task11.DriverProvider.driver;
-
-//- Add Allure to your framework
-//- Attach screenshot and DOM to the report
-//- * Record video and attach it to the report
-//- Run allure dashboard
+import at.DriverPool;
 
 public class CustomAllureListener implements ITestListener {
-    @Override
-    public void onTestSuccess(ITestResult result) {
-        System.out.println("Success" + result.getName());
-        ITestListener.super.onTestSuccess(result);
-    }
 
     @Override
     public void onTestFailure(ITestResult result) {
-        System.out.println("Failure" + result.getName());
-        ITestListener.super.onTestFailure(result);
+        System.out.println("Failure: " + result.getName());
         makeScreenshotAttachment();
         makeDOMAttachment();
     }
 
     @Attachment(value="Page screen", type="image/png")
-    private byte[] makeScreenshotAttachment(){
-        System.out.println("make Screenshot");
-        return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+    private byte[] makeScreenshotAttachment() {
+        return ((TakesScreenshot) DriverPool.getDriver()).getScreenshotAs(OutputType.BYTES);
     }
 
-    @Attachment(value="{0}", type="text/plain")
+    @Attachment(value="Page DOM", type="text/plain")
     private String makeDOMAttachment() {
-        return driver.getPageSource();
+        return DriverPool.getDriver().getPageSource();
     }
-
-
 }

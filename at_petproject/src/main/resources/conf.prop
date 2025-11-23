@@ -1,4 +1,4 @@
-base.url=https://demoblaze.com
+base.url=https://demowebshop.tricentis.com/
 browserType=Chrome
 remote=false
 remote.url=http://localhost:4444/wd/hub

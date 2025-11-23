@@ -10,29 +10,18 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-//
-// TASK 12:
-// Implement PageFactory for a few pages.
-// Implement a Wrapper for common WebElements (choose your variant).
-// Implement methods for your web element with console logging.
-// Use those methods in a simple TC scenario.
-//
-// Textareas:
-// - setText: sets the text value of a textarea
-// - getText: retrieves the text value of a textarea
-// - waitForText: waits for a specific text to be present in the textarea
-//
-
 public class TextAreaPageObject {
 
     WebDriver driver;
     WebDriverWait wait;
 
-    @FindBy(xpath = "//*[@id=\"signin2\"]")
-    WebElement signUpMenuButton;
+    // Кнопка "Register" на головній сторінці
+    @FindBy(linkText = "Register")
+    WebElement registerButton;
 
-    @FindBy(xpath = "//*[@id=\"sign-username\"]")
-    WebElement textArea;
+    // Поле First Name
+    @FindBy(id = "FirstName")
+    WebElement firstNameField;
 
     public TextAreaPageObject(WebDriver driver) {
         PageFactory.initElements(driver, this);
@@ -40,35 +29,30 @@ public class TextAreaPageObject {
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
-    public void clickSignUpMenuButton() {
-        signUpMenuButton.click();
-        System.out.println("Clicked on Sign Up menu button");
+    public void clickRegisterButton() {
+        registerButton.click();
+        System.out.println("Clicked on Register button");
     }
 
-    public void waitForTextArea() {
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"sign-username\"]")));
-        System.out.println("Textarea is visible");
+    public void waitForFirstNameField() {
+        wait.until(ExpectedConditions.visibilityOf(firstNameField));
+        System.out.println("First Name field is visible");
     }
 
     public void setText(String text) {
-        textArea.clear();
-        textArea.sendKeys(text);
+        firstNameField.clear();
+        firstNameField.sendKeys(text);
         System.out.println("Set text: " + text);
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
     }
 
     public String getText() {
-        String value = textArea.getAttribute("value");
+        String value = firstNameField.getAttribute("value");
         System.out.println("Retrieved text: " + value);
         return value;
     }
 
     public void waitForText(String expectedText) {
-        wait.until(ExpectedConditions.textToBePresentInElementValue(textArea, expectedText));
-        System.out.println("Text \"" + expectedText + "\" is present in textarea");
+        wait.until(ExpectedConditions.textToBePresentInElementValue(firstNameField, expectedText));
+        System.out.println("Text \"" + expectedText + "\" is present in First Name field");
     }
 }

@@ -4,19 +4,17 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
 public class TextAreaBusinessObject {
-    public void signupAndFillTextArea(String text, WebDriver driver) {
-        driver.get("https://www.demoblaze.com/");
 
-        TextAreaPageObject textAreaPage = new TextAreaPageObject(driver);
-        textAreaPage.clickSignUpMenuButton(); // Open the main page and click SignUp
-        textAreaPage.waitForTextArea();       // wait for the sign-up form
-        textAreaPage.setText(text);           // Type text
-        textAreaPage.getText();               // Read the text
+    public void fillFirstNameField(String text, WebDriver driver) {
+        driver.get("https://demowebshop.tricentis.com/");
 
-        String actualText = textAreaPage.getText();
-
-        textAreaPage.waitForText(text);
-        Assert.assertEquals(actualText, text, "Text does not match expected value");  // validate
-        System.out.println("Textarea content validated: " + actualText);
+        TextAreaPageObject page = new TextAreaPageObject(driver);
+        page.clickRegisterButton();      // Натискаємо Register
+        page.waitForFirstNameField();    // Чекаємо, поки поле First Name стане видимим
+        page.setText(text);              // Вводимо текст
+        String actualText = page.getText();
+        page.waitForText(text);          // Чекаємо, поки текст підтягнеться
+        Assert.assertEquals(actualText, text, "Text does not match expected value");
+        System.out.println("First Name content validated: " + actualText);
     }
 }
