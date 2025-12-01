@@ -20,6 +20,8 @@ public class RegistrationPage {
     By confirmPasswordField = By.id("ConfirmPassword");
     By registerButton = By.id("register-button");
 
+    By resultMessage = By.cssSelector(".result");
+
     public RegistrationPage(WebDriver driver) {
         this.driver = driver;
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -67,5 +69,13 @@ public class RegistrationPage {
     public void clickRegister() {
         driver.findElement(registerButton).click();
         System.out.println("Clicked Register button");
+    }
+
+    public boolean isRegistrationSuccessful() {
+        return wait.until(ExpectedConditions.textToBePresentInElementLocated(resultMessage, "Your registration completed"));
+    }
+
+    public String getSuccessMessage() {
+        return driver.findElement(resultMessage).getText();
     }
 }

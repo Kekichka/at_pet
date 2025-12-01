@@ -17,8 +17,8 @@ public class Task8Test {
 
     @Test(dataProvider = "registrationData")
     public void registerUserTest(String firstName, String lastName, String email, String password) {
-        DriverPool.getDriver().get("https://demowebshop.tricentis.com/");
         RegistrationBO bo = new RegistrationBO();
-        bo.registerUser(DriverPool.getDriver(), firstName, lastName, email, password);
+        boolean success = bo.registerUserAndVerify(DriverPool.getDriver(), firstName, lastName, email, password);
+        assert success : "Registration failed for user: " + firstName + " " + lastName;
     }
 }
