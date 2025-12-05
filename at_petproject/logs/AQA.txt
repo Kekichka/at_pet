@@ -1,0 +1,21 @@
+2025-11-23 18:54:32 INFO  CustomListener - TestNG execution started
+2025-11-23 18:54:32 INFO  CustomListener - Starting test suite: Default Suite ===
+2025-11-23 18:54:33 INFO  CustomListener - Test started: task14 ===
+2025-11-23 18:54:50 INFO  CustomListener - Test started: task14Fail ===
+2025-11-23 18:54:57 INFO  CustomListener - All tests in 'at_pet' have finished
+2025-11-23 18:54:57 INFO  CustomListener - Test suite finished: Default Suite ===
+2025-11-23 18:54:57 INFO  CustomListener - TestNG execution finished
+2025-11-23 18:59:31 INFO  CustomListener - TestNG execution started
+2025-11-23 18:59:31 INFO  CustomListener - Starting test suite: Default Suite ===
+2025-11-23 18:59:33 INFO  CustomListener - Test started: task14 ===
+2025-11-23 18:59:41 INFO  CustomListener - Test started: task14Fail ===
+2025-11-23 18:59:41 INFO  CustomListener - All tests in 'at_pet' have finished
+2025-11-23 18:59:41 INFO  CustomListener - Test suite finished: Default Suite ===
+2025-11-23 18:59:41 INFO  CustomListener - TestNG execution finished
+2025-11-23 19:00:14 INFO  CustomListener - TestNG execution started
+2025-11-23 19:00:14 INFO  CustomListener - Starting test suite: Default Suite ===
+2025-11-23 19:00:17 INFO  CustomListener - Test started: task14 ===
+2025-11-23 19:00:18 INFO  CustomListener - Test started: task14Fail ===
+2025-11-23 19:00:19 INFO  CustomListener - All tests in 'at_pet' have finished
+2025-11-23 19:00:19 INFO  CustomListener - Test suite finished: Default Suite ===
+2025-11-23 19:00:19 INFO  CustomListener - TestNG execution finished
