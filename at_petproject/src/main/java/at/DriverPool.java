@@ -1,5 +1,6 @@
 package at;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -19,12 +20,14 @@ public class DriverPool {
                 case "chrome":
                     ChromeOptions options = new ChromeOptions();
 
-                    // headless можна брати з пропертіз, якщо хочеш
+                    // headless можна брати з пропертіз
                     String headlessProp = System.getProperty("headless", "false");
                     if (headlessProp.equalsIgnoreCase("true")) {
                         options.addArguments("--headless=new");
                     }
 
+                    // ---- WebDriverManager setup ----
+                    WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver(options);
                     driver.manage().window().maximize();
                     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
