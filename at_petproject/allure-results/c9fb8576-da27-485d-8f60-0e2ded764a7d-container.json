@@ -1,1 +1,0 @@
-{"uuid":"c9fb8576-da27-485d-8f60-0e2ded764a7d","name":"task6.Task6Test.tearDown","children":["87db7245-668e-43d2-bd69-cd0f161e071a"],"description":"","befores":[],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1764933558206,"stop":1764933558249}],"start":1764933558204,"stop":1764933558250}
