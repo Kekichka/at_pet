@@ -1,28 +1,47 @@
 package at.listener;
 
-import io.qameta.allure.Attachment;
+import io.qameta.allure.Allure;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import at.DriverPool;
+
+import java.io.ByteArrayInputStream;
 
 public class CustomAllureListener implements ITestListener {
 
+    private WebDriver driver;
+
+    public void setDriver(WebDriver driver) {
+        this.driver = driver;
+    }
+
     @Override
     public void onTestFailure(ITestResult result) {
-        System.out.println("Failure: " + result.getName());
-        makeScreenshotAttachment();
-        makeDOMAttachment();
+        attachScreenshot("Failure Screenshot");
     }
 
-    @Attachment(value="Page screen", type="image/png")
-    private byte[] makeScreenshotAttachment() {
-        return ((TakesScreenshot) DriverPool.getDriver()).getScreenshotAs(OutputType.BYTES);
+    @Override
+    public void onTestSuccess(ITestResult result) {
+        attachScreenshot("Success Screenshot");
     }
 
-    @Attachment(value="Page DOM", type="text/plain")
-    private String makeDOMAttachment() {
-        return DriverPool.getDriver().getPageSource();
+    private void attachScreenshot(String name) {
+        if (driver != null) {
+            try {
+                byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+                Allure.addAttachment(name, new ByteArrayInputStream(screenshot));
+            } catch (Exception e) {
+                System.out.println("Failed to capture screenshot: " + e.getMessage());
+            }
+        }
     }
+
+    @Override public void onTestStart(ITestResult result) {}
+    @Override public void onTestSkipped(ITestResult result) {}
+    @Override public void onTestFailedButWithinSuccessPercentage(ITestResult result) {}
+    @Override public void onStart(ITestContext context) {}
+    @Override public void onFinish(ITestContext context) {}
 }
