@@ -21,7 +21,9 @@ AQA
 │   │   │   └── at  
 │   │   │       ├── ConfigReader.java # Reads configuration properties  
 │   │   │       ├── DriverPool.java # Manages WebDriver instances  
-│   │   │       ├── db  
+|               └── api
+│                 ├── DemoWebShopApiBO.java  
+│   │   │       ├── dto  
 │   │   │       │   ├── request  
 │   │   │       │   │ ├── AddToCartRequest.java  
 │   │   │       │   │ ├── UserLoginRequest.java  
@@ -33,36 +35,17 @@ AQA
 │   │   │       │       └── UserRegisterResponse.java  
 │   │   │       ├── listener  
 │   │   │       │   ├── CustomAllureListener.java  
-│   │   │       │   └── CustomListener.java  
-│   │   │       ├── task16  
-│   │   │       │   ├── TrelloAddItemResModel.java  
-│   │   │       │   ├── TrelloCreateChecklistResModel.java  
-│   │   │       │   └── TrelloUpdateChecklistNameResModel.java  
-│   │   │       ├── task21  
-│   │   │       │   └── ScreenHelper.java  
 │   │   │       └── ui  
 │   │   │           ├── bo  
-│   │   │           │   ├── DemoWebShopApiBO.java  
 │   │   │           │   ├── RegistrationBO.java  
-│   │   │           │   ├── TextAreaBusinessObject.java  
-│   │   │           │   ├── TrelloBO.java  
-│   │   │           │   └── UserBO.java  
 │   │   │           └── po  
 │   │   │               ├── LoginPage.java  
 │   │   │               ├── RegistrationPage.java  
 │   │   │               ├── ShoppingPage.java  
-│   │   │               ├── TextAreaPageObject.java  
 │   │   │               └── UserPage.java  
 │   │   └── resources  
-│   │       ├── BUY LAPTOP.jmx  
-│   │       ├── REGISTER + LOGIN.jmx  
-│   │       ├── Typical Browsing.jmx  
 │   │       ├── conf.prop  
-│   │       ├── hibernate.cfg.xml  
-│   │       ├── input.json  
-│   │       ├── input.xml  
 │   │       ├── log4j2.xml  
-│   │       ├── testng.xml  
 │   │       └── user.csv  
 │   └── test  
 │       └── java  
@@ -71,8 +54,10 @@ AQA
 │           │   ├── RegisterLoginAddPremiumProductTest.java  
 │           │   └── RegisterLoginAddSingleProductTest.java  
 │           └── ui  
-│               ├── AllureTest.java  
-│               └── Task11Test.java  
+│               ├── AddProductToCartTest.java  # Automates the full user flow: registration, login, adding a product to the shopping cart, and verifying it was added, with Allure reporting.
+│               └── UITests.java # These tests cover the full user flow on the demo webshop: **user registration, login, product selection, adding products to cart, and verifying that the products are successfully added.**
+|           └── resources
+│               ├── testng.xml  
 ├── target  
 │   ├── classes # Compiled classes and copied resources  
 │   ├── maven-status  
