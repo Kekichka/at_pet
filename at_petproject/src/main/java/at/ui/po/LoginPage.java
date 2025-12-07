@@ -1,25 +1,30 @@
 package at.ui.po;
 
-import org.openqa.selenium.By;
+import at.ui.wrappers.*;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.time.Duration;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 
     private final WebDriver driver;
-    private final WebDriverWait wait;
 
-    private final By emailField = By.id("Email");
-    private final By passwordField = By.id("Password");
-    private final By loginButton = By.cssSelector("input.button-1.login-button");
-    private final By logoutLink = By.linkText("Log out");
+    @FindBy(id = "Email")
+    private WebElement emailField;
+
+    @FindBy(id = "Password")
+    private WebElement passwordField;
+
+    @FindBy(css = "input.button-1.login-button")
+    private WebElement loginButton;
+
+    @FindBy(linkText = "Log out")
+    private WebElement logoutLink;
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        PageFactory.initElements(driver, this);
     }
 
     public void open() {
@@ -27,14 +32,12 @@ public class LoginPage {
     }
 
     public void login(String email, String password) {
-        driver.findElement(emailField).clear();
-        driver.findElement(emailField).sendKeys(email);
-        driver.findElement(passwordField).clear();
-        driver.findElement(passwordField).sendKeys(password);
-        driver.findElement(loginButton).click();
+        new InputField(driver, emailField).setText(email);
+        new InputField(driver, passwordField).setText(password);
+        new Button(driver, loginButton).click();
     }
 
     public boolean isLoggedIn() {
-        return wait.until(ExpectedConditions.visibilityOfElementLocated(logoutLink)).isDisplayed();
+        return new Label(driver, logoutLink).getText().equals("Log out");
     }
 }

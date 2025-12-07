@@ -4,6 +4,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 import java.time.Duration;
 
@@ -13,30 +15,33 @@ public class DriverPool {
 
     public static WebDriver getDriver() {
         if (driver == null) {
-            // беремо browser з system property або default "chrome"
-            String browser = System.getProperty("browser", "chrome");
+            String browser = ConfigReader.getProp("browserType");
 
-            switch (browser.toLowerCase()) {
-                case "chrome":
-                    ChromeOptions options = new ChromeOptions();
-
-                    // headless можна брати з пропертіз
-                    String headlessProp = System.getProperty("headless", "false");
-                    if (headlessProp.equalsIgnoreCase("true")) {
-                        options.addArguments("--headless=new");
+            switch (browser) {
+                case "Chrome":
+                    ChromeOptions chromeOptions = new ChromeOptions();
+                    if (System.getProperty("headless", "false").equalsIgnoreCase("true")) {
+                        chromeOptions.addArguments("--headless=new");
                     }
-
-                    // ---- WebDriverManager setup ----
                     WebDriverManager.chromedriver().setup();
-                    driver = new ChromeDriver(options);
-                    driver.manage().window().maximize();
-                    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+                    driver = new ChromeDriver(chromeOptions);
                     break;
 
-                // можна додати firefox, edge тощо
+                case "firefox":
+                    FirefoxOptions firefoxOptions = new FirefoxOptions();
+                    if (System.getProperty("headless", "false").equalsIgnoreCase("true")) {
+                        firefoxOptions.addArguments("--headless");
+                    }
+                    WebDriverManager.firefoxdriver().setup();
+                    driver = new FirefoxDriver(firefoxOptions);
+                    break;
+
                 default:
                     throw new RuntimeException("Unsupported browser: " + browser);
             }
+
+            driver.manage().window().maximize();
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         }
         return driver;
     }

@@ -5,5 +5,7 @@ remote.url=http://localhost:4444/wd/hub
 implicit.wait=5
 headless=false
 allure.results.dir=allure-results
-apk.path=          # if you supply an apk later
-appium.server=http://localhost:4723/wd/hub
+db.url=jdbc:h2:mem:testdb
+db.user=sa
+db.password=
+

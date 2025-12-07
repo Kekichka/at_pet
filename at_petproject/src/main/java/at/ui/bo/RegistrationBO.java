@@ -16,10 +16,7 @@ public class RegistrationBO {
         page.clickRegister();
 
         boolean success = page.isRegistrationSuccessful();
-        System.out.println("Registration success: " + success);
-        if (success) {
-            System.out.println("Message: " + page.getSuccessMessage());
-        }
+        if (success) System.out.println("Message: " + page.getSuccessMessage());
         return success;
     }
 }

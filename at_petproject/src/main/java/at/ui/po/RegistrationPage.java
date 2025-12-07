@@ -1,30 +1,39 @@
 package at.ui.po;
 
-import org.openqa.selenium.By;
+import at.ui.wrappers.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.time.Duration;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class RegistrationPage {
 
-    WebDriver driver;
-    WebDriverWait wait;
+    private final WebDriver driver;
 
-    By firstNameField = By.id("FirstName");
-    By lastNameField = By.id("LastName");
-    By emailField = By.id("Email");
-    By passwordField = By.id("Password");
-    By confirmPasswordField = By.id("ConfirmPassword");
-    By registerButton = By.id("register-button");
+    @FindBy(id = "FirstName")
+    private WebElement firstNameField;
 
-    By resultMessage = By.cssSelector(".result");
+    @FindBy(id = "LastName")
+    private WebElement lastNameField;
+
+    @FindBy(id = "Email")
+    private WebElement emailField;
+
+    @FindBy(id = "Password")
+    private WebElement passwordField;
+
+    @FindBy(id = "ConfirmPassword")
+    private WebElement confirmPasswordField;
+
+    @FindBy(id = "register-button")
+    private WebElement registerButton;
+
+    @FindBy(css = ".result")
+    private WebElement resultMessage;
 
     public RegistrationPage(WebDriver driver) {
         this.driver = driver;
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        PageFactory.initElements(driver, this);
     }
 
     public void openRegistrationPage() {
@@ -32,50 +41,34 @@ public class RegistrationPage {
     }
 
     public void setFirstName(String firstName) {
-        WebElement field = wait.until(ExpectedConditions.visibilityOfElementLocated(firstNameField));
-        field.clear();
-        field.sendKeys(firstName);
-        System.out.println("First Name set: " + firstName);
+        new InputField(driver, firstNameField).setText(firstName);
     }
 
     public void setLastName(String lastName) {
-        WebElement field = driver.findElement(lastNameField);
-        field.clear();
-        field.sendKeys(lastName);
-        System.out.println("Last Name set: " + lastName);
+        new InputField(driver, lastNameField).setText(lastName);
     }
 
     public void setEmail(String email) {
-        WebElement field = driver.findElement(emailField);
-        field.clear();
-        field.sendKeys(email);
-        System.out.println("Email set: " + email);
+        new InputField(driver, emailField).setText(email);
     }
 
     public void setPassword(String password) {
-        WebElement field = driver.findElement(passwordField);
-        field.clear();
-        field.sendKeys(password);
-        System.out.println("Password set: " + password);
+        new InputField(driver, passwordField).setText(password);
     }
 
     public void setConfirmPassword(String password) {
-        WebElement field = driver.findElement(confirmPasswordField);
-        field.clear();
-        field.sendKeys(password);
-        System.out.println("Confirm Password set: " + password);
+        new InputField(driver, confirmPasswordField).setText(password);
     }
 
     public void clickRegister() {
-        driver.findElement(registerButton).click();
-        System.out.println("Clicked Register button");
+        new Button(driver, registerButton).click();
     }
 
     public boolean isRegistrationSuccessful() {
-        return wait.until(ExpectedConditions.textToBePresentInElementLocated(resultMessage, "Your registration completed"));
+        return new Label(driver, resultMessage).containsText("Your registration completed");
     }
 
     public String getSuccessMessage() {
-        return driver.findElement(resultMessage).getText();
+        return new Label(driver, resultMessage).getText();
     }
 }

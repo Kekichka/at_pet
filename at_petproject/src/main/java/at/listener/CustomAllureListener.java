@@ -7,15 +7,14 @@ import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import at.DriverPool;
 
 import java.io.ByteArrayInputStream;
 
 public class CustomAllureListener implements ITestListener {
 
-    private WebDriver driver;
-
-    public void setDriver(WebDriver driver) {
-        this.driver = driver;
+    private WebDriver getDriver() {
+        return DriverPool.getDriver();
     }
 
     @Override
@@ -28,20 +27,30 @@ public class CustomAllureListener implements ITestListener {
         attachScreenshot("Success Screenshot");
     }
 
+    @Override
+    public void onTestStart(ITestResult result) { }
+
+    @Override
+    public void onTestSkipped(ITestResult result) { }
+
+    @Override
+    public void onTestFailedButWithinSuccessPercentage(ITestResult result) { }
+
+    @Override
+    public void onStart(ITestContext context) { }
+
+    @Override
+    public void onFinish(ITestContext context) { }
+
     private void attachScreenshot(String name) {
-        if (driver != null) {
-            try {
+        try {
+            WebDriver driver = getDriver();
+            if (driver != null) {
                 byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
                 Allure.addAttachment(name, new ByteArrayInputStream(screenshot));
-            } catch (Exception e) {
-                System.out.println("Failed to capture screenshot: " + e.getMessage());
             }
+        } catch (Exception e) {
+            System.out.println("Cannot attach screenshot: " + e.getMessage());
         }
     }
-
-    @Override public void onTestStart(ITestResult result) {}
-    @Override public void onTestSkipped(ITestResult result) {}
-    @Override public void onTestFailedButWithinSuccessPercentage(ITestResult result) {}
-    @Override public void onStart(ITestContext context) {}
-    @Override public void onFinish(ITestContext context) {}
 }

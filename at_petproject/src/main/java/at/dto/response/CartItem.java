@@ -1,4 +1,4 @@
-package at.db.response;
+package at.dto.response;
 
 import lombok.Data;
 

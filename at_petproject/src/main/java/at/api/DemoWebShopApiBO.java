@@ -1,11 +1,11 @@
-package at.ui.bo;
+package at.api;
 
-import at.db.request.UserRegisterRequest;
-import at.db.response.UserRegisterResponse;
-import at.db.request.UserLoginRequest;
-import at.db.response.UserLoginResponse;
-import at.db.request.AddToCartRequest;
-import at.db.response.AddToCartResponse;
+import at.dto.request.UserRegisterRequest;
+import at.dto.response.UserRegisterResponse;
+import at.dto.request.UserLoginRequest;
+import at.dto.response.UserLoginResponse;
+import at.dto.request.AddToCartRequest;
+import at.dto.response.AddToCartResponse;
 import org.testng.asserts.SoftAssert;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;

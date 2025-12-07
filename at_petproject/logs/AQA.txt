@@ -19,3 +19,1079 @@
 2025-11-23 19:00:19 INFO  CustomListener - All tests in 'at_pet' have finished
 2025-11-23 19:00:19 INFO  CustomListener - Test suite finished: Default Suite ===
 2025-11-23 19:00:19 INFO  CustomListener - TestNG execution finished
+2025-12-07 19:31:07 INFO  UITests - Registering user: Multi ItemUser
+2025-12-07 19:32:48 INFO  UITests - Registration successful for email: user1765128667309@mail.com
+2025-12-07 19:33:18 INFO  UITests - Logging in with email: user1765128667309@mail.com
+2025-12-07 19:34:26 INFO  UITests - Login successful for email: user1765128667309@mail.com
+2025-12-07 19:35:01 INFO  UITests - Adding product to cart: 14.1-inch Laptop
+2025-12-07 19:35:33 INFO  UITests - Product added successfully: 14.1-inch Laptop
+2025-12-07 19:35:33 INFO  UITests - Adding product to cart: Build your own cheap computer
+2025-12-07 19:35:34 INFO  UITests - Product added successfully: Build your own cheap computer
+2025-12-07 19:35:34 INFO  UITests - Adding product to cart: Build your own expensive computer
+2025-12-07 19:35:35 INFO  UITests - Product added successfully: Build your own expensive computer
+2025-12-07 19:35:36 INFO  UITests - Registering user: Charlie Premium
+2025-12-07 19:37:24 INFO  UITests - Registration successful for email: user1765128936089@mail.com
+2025-12-07 19:37:48 INFO  UITests - Logging in with email: user1765128936089@mail.com
+2025-12-07 19:38:50 INFO  UITests - Login successful for email: user1765128936089@mail.com
+2025-12-07 19:39:12 INFO  UITests - Adding product to cart: Build your own expensive computer
+2025-12-07 20:27:26 INFO  UITests - Registering user: Multi ItemUser
+2025-12-07 20:27:28 INFO  BaseElement - Entered text 'Multi' into field: [[ChromeDriver: chrome on windows (2f4363b24491d7f643b9d689b1439087)] -> id: FirstName]
+2025-12-07 20:27:28 INFO  BaseElement - Entered text 'ItemUser' into field: [[ChromeDriver: chrome on windows (2f4363b24491d7f643b9d689b1439087)] -> id: LastName]
+2025-12-07 20:27:28 INFO  BaseElement - Entered text 'user1765132046980@mail.com' into field: [[ChromeDriver: chrome on windows (2f4363b24491d7f643b9d689b1439087)] -> id: Email]
+2025-12-07 20:27:28 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (2f4363b24491d7f643b9d689b1439087)] -> id: Password]
+2025-12-07 20:27:28 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (2f4363b24491d7f643b9d689b1439087)] -> id: ConfirmPassword]
+2025-12-07 20:27:29 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.id: register-button'
+2025-12-07 20:27:39 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 20:27:39 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 20:27:39 INFO  UITests - Registration successful for email: user1765132046980@mail.com
+2025-12-07 20:27:40 INFO  UITests - Logging in with email: user1765132046980@mail.com
+2025-12-07 20:27:40 INFO  BaseElement - Entered text 'user1765132046980@mail.com' into field: [[ChromeDriver: chrome on windows (2f4363b24491d7f643b9d689b1439087)] -> id: Email]
+2025-12-07 20:27:40 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (2f4363b24491d7f643b9d689b1439087)] -> id: Password]
+2025-12-07 20:27:40 INFO  BaseElement - Clicked on button: [[ChromeDriver: chrome on windows (2f4363b24491d7f643b9d689b1439087)] -> css selector: input.button-1.login-button]
+2025-12-07 20:27:41 INFO  BaseElement - Text read from label: Log out
+2025-12-07 20:27:41 INFO  UITests - Login successful for email: user1765132046980@mail.com
+2025-12-07 20:27:42 INFO  UITests - Adding product to cart: 14.1-inch Laptop
+2025-12-07 20:27:42 INFO  BaseElement - Clicked on button: [[[[ChromeDriver: chrome on windows (2f4363b24491d7f643b9d689b1439087)] -> css selector: .product-item]] -> css selector: input[value='Add to cart']]
+2025-12-07 20:27:43 INFO  BaseElement - Text read from label:   The product has been added to your shopping cart
+2025-12-07 20:27:43 INFO  UITests - Product added successfully: 14.1-inch Laptop
+2025-12-07 20:27:43 INFO  UITests - Adding product to cart: Build your own cheap computer
+2025-12-07 20:27:43 INFO  BaseElement - Clicked on button: [[[[ChromeDriver: chrome on windows (2f4363b24491d7f643b9d689b1439087)] -> css selector: .product-item]] -> css selector: input[value='Add to cart']]
+2025-12-07 20:27:43 INFO  BaseElement - Text read from label:   The product has been added to your shopping cart
+2025-12-07 20:27:43 INFO  UITests - Product added successfully: Build your own cheap computer
+2025-12-07 20:27:43 INFO  UITests - Adding product to cart: Build your own expensive computer
+2025-12-07 20:27:46 INFO  UITests - Registering user: Charlie Premium
+2025-12-07 20:27:47 INFO  BaseElement - Entered text 'Charlie' into field: [[ChromeDriver: chrome on windows (080cf2e0d48957c0314e70c42a023bd5)] -> id: FirstName]
+2025-12-07 20:27:48 INFO  BaseElement - Entered text 'Premium' into field: [[ChromeDriver: chrome on windows (080cf2e0d48957c0314e70c42a023bd5)] -> id: LastName]
+2025-12-07 20:27:48 INFO  BaseElement - Entered text 'user1765132066555@mail.com' into field: [[ChromeDriver: chrome on windows (080cf2e0d48957c0314e70c42a023bd5)] -> id: Email]
+2025-12-07 20:27:48 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (080cf2e0d48957c0314e70c42a023bd5)] -> id: Password]
+2025-12-07 20:27:48 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (080cf2e0d48957c0314e70c42a023bd5)] -> id: ConfirmPassword]
+2025-12-07 20:27:49 INFO  BaseElement - Clicked on button: [[ChromeDriver: chrome on windows (080cf2e0d48957c0314e70c42a023bd5)] -> id: register-button]
+2025-12-07 20:27:50 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 20:27:50 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 20:27:50 INFO  UITests - Registration successful for email: user1765132066555@mail.com
+2025-12-07 20:27:50 INFO  UITests - Logging in with email: user1765132066555@mail.com
+2025-12-07 20:27:50 INFO  BaseElement - Entered text 'user1765132066555@mail.com' into field: [[ChromeDriver: chrome on windows (080cf2e0d48957c0314e70c42a023bd5)] -> id: Email]
+2025-12-07 20:27:50 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (080cf2e0d48957c0314e70c42a023bd5)] -> id: Password]
+2025-12-07 20:27:51 INFO  BaseElement - Clicked on button: [[ChromeDriver: chrome on windows (080cf2e0d48957c0314e70c42a023bd5)] -> css selector: input.button-1.login-button]
+2025-12-07 20:27:51 INFO  BaseElement - Text read from label: Log out
+2025-12-07 20:27:51 INFO  UITests - Login successful for email: user1765132066555@mail.com
+2025-12-07 20:27:52 INFO  UITests - Adding product to cart: Build your own expensive computer
+2025-12-07 20:27:52 INFO  BaseElement - Clicked on button: [[[[ChromeDriver: chrome on windows (080cf2e0d48957c0314e70c42a023bd5)] -> css selector: .product-item]] -> css selector: input[value='Add to cart']]
+2025-12-07 20:29:27 INFO  UITests - Registering user: Multi ItemUser
+2025-12-07 20:29:28 INFO  BaseElement - Entered text 'Multi' into field: [[ChromeDriver: chrome on windows (0cdd033662e14f2dfa32402288a4c896)] -> id: FirstName]
+2025-12-07 20:29:28 INFO  BaseElement - Entered text 'ItemUser' into field: [[ChromeDriver: chrome on windows (0cdd033662e14f2dfa32402288a4c896)] -> id: LastName]
+2025-12-07 20:29:28 INFO  BaseElement - Entered text 'user1765132167162@mail.com' into field: [[ChromeDriver: chrome on windows (0cdd033662e14f2dfa32402288a4c896)] -> id: Email]
+2025-12-07 20:29:28 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (0cdd033662e14f2dfa32402288a4c896)] -> id: Password]
+2025-12-07 20:29:28 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (0cdd033662e14f2dfa32402288a4c896)] -> id: ConfirmPassword]
+2025-12-07 20:29:50 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.id: register-button'
+2025-12-07 20:30:00 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 20:30:00 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 20:30:00 INFO  UITests - Registration successful for email: user1765132167162@mail.com
+2025-12-07 20:30:56 INFO  UITests - Logging in with email: user1765132167162@mail.com
+2025-12-07 20:30:57 INFO  BaseElement - Entered text 'user1765132167162@mail.com' into field: [[ChromeDriver: chrome on windows (0cdd033662e14f2dfa32402288a4c896)] -> id: Email]
+2025-12-07 20:30:57 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (0cdd033662e14f2dfa32402288a4c896)] -> id: Password]
+2025-12-07 20:32:51 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.cssSelector: input.button-1.login-button'
+2025-12-07 20:33:01 INFO  BaseElement - Text read from label: Log out
+2025-12-07 20:33:01 INFO  UITests - Login successful for email: user1765132167162@mail.com
+2025-12-07 20:33:01 INFO  UITests - Scrolling to and adding product to cart: 14.1-inch Laptop
+2025-12-07 20:33:03 INFO  UITests - Registering user: Charlie Premium
+2025-12-07 20:33:04 INFO  BaseElement - Entered text 'Charlie' into field: [[ChromeDriver: chrome on windows (70683b96be0b3e489d3e74c569e1232e)] -> id: FirstName]
+2025-12-07 20:33:04 INFO  BaseElement - Entered text 'Premium' into field: [[ChromeDriver: chrome on windows (70683b96be0b3e489d3e74c569e1232e)] -> id: LastName]
+2025-12-07 20:33:05 INFO  BaseElement - Entered text 'user1765132383170@mail.com' into field: [[ChromeDriver: chrome on windows (70683b96be0b3e489d3e74c569e1232e)] -> id: Email]
+2025-12-07 20:33:05 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (70683b96be0b3e489d3e74c569e1232e)] -> id: Password]
+2025-12-07 20:33:05 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (70683b96be0b3e489d3e74c569e1232e)] -> id: ConfirmPassword]
+2025-12-07 20:33:06 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.id: register-button'
+2025-12-07 20:33:16 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 20:33:16 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 20:33:16 INFO  UITests - Registration successful for email: user1765132383170@mail.com
+2025-12-07 20:33:16 INFO  UITests - Logging in with email: user1765132383170@mail.com
+2025-12-07 20:33:17 INFO  BaseElement - Entered text 'user1765132383170@mail.com' into field: [[ChromeDriver: chrome on windows (70683b96be0b3e489d3e74c569e1232e)] -> id: Email]
+2025-12-07 20:33:17 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (70683b96be0b3e489d3e74c569e1232e)] -> id: Password]
+2025-12-07 20:33:17 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.cssSelector: input.button-1.login-button'
+2025-12-07 20:33:28 INFO  BaseElement - Text read from label: Log out
+2025-12-07 20:33:28 INFO  UITests - Login successful for email: user1765132383170@mail.com
+2025-12-07 20:33:28 INFO  UITests - Adding product to cart: Build your own expensive computer
+2025-12-07 20:33:29 INFO  BaseElement - Clicked on button: [[[[ChromeDriver: chrome on windows (70683b96be0b3e489d3e74c569e1232e)] -> css selector: .product-item]] -> css selector: input[value='Add to cart']]
+2025-12-07 20:39:12 INFO  UITests - Registering user: Multi ItemUser
+2025-12-07 20:39:13 INFO  BaseElement - Entered text 'Multi' into field: [[ChromeDriver: chrome on windows (74042eed5f403a11b5dd417719a73d17)] -> id: FirstName]
+2025-12-07 20:39:13 INFO  BaseElement - Entered text 'ItemUser' into field: [[ChromeDriver: chrome on windows (74042eed5f403a11b5dd417719a73d17)] -> id: LastName]
+2025-12-07 20:39:13 INFO  BaseElement - Entered text 'user1765132752440@mail.com' into field: [[ChromeDriver: chrome on windows (74042eed5f403a11b5dd417719a73d17)] -> id: Email]
+2025-12-07 20:39:13 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (74042eed5f403a11b5dd417719a73d17)] -> id: Password]
+2025-12-07 20:39:13 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (74042eed5f403a11b5dd417719a73d17)] -> id: ConfirmPassword]
+2025-12-07 20:39:14 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.id: register-button'
+2025-12-07 20:39:24 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 20:39:25 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 20:39:25 INFO  UITests - Registration successful for email: user1765132752440@mail.com
+2025-12-07 20:39:25 INFO  UITests - Logging in with email: user1765132752440@mail.com
+2025-12-07 20:39:25 INFO  BaseElement - Entered text 'user1765132752440@mail.com' into field: [[ChromeDriver: chrome on windows (74042eed5f403a11b5dd417719a73d17)] -> id: Email]
+2025-12-07 20:39:26 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (74042eed5f403a11b5dd417719a73d17)] -> id: Password]
+2025-12-07 20:39:26 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.cssSelector: input.button-1.login-button'
+2025-12-07 20:39:36 INFO  BaseElement - Text read from label: Log out
+2025-12-07 20:39:36 INFO  UITests - Login successful for email: user1765132752440@mail.com
+2025-12-07 20:39:37 INFO  UITests - Scrolling to and adding product to cart: 14.1-inch Laptop
+2025-12-07 20:39:38 INFO  UITests - Registering user: Charlie Premium
+2025-12-07 20:39:39 INFO  BaseElement - Entered text 'Charlie' into field: [[ChromeDriver: chrome on windows (98dda42a113f87a2e2370a07dd5f7d4d)] -> id: FirstName]
+2025-12-07 20:39:39 INFO  BaseElement - Entered text 'Premium' into field: [[ChromeDriver: chrome on windows (98dda42a113f87a2e2370a07dd5f7d4d)] -> id: LastName]
+2025-12-07 20:39:39 INFO  BaseElement - Entered text 'user1765132778225@mail.com' into field: [[ChromeDriver: chrome on windows (98dda42a113f87a2e2370a07dd5f7d4d)] -> id: Email]
+2025-12-07 20:39:39 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (98dda42a113f87a2e2370a07dd5f7d4d)] -> id: Password]
+2025-12-07 20:39:39 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (98dda42a113f87a2e2370a07dd5f7d4d)] -> id: ConfirmPassword]
+2025-12-07 20:39:40 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.id: register-button'
+2025-12-07 20:39:50 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 20:39:50 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 20:39:50 INFO  UITests - Registration successful for email: user1765132778225@mail.com
+2025-12-07 20:39:51 INFO  UITests - Logging in with email: user1765132778225@mail.com
+2025-12-07 20:39:51 INFO  BaseElement - Entered text 'user1765132778225@mail.com' into field: [[ChromeDriver: chrome on windows (98dda42a113f87a2e2370a07dd5f7d4d)] -> id: Email]
+2025-12-07 20:39:51 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (98dda42a113f87a2e2370a07dd5f7d4d)] -> id: Password]
+2025-12-07 20:39:52 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.cssSelector: input.button-1.login-button'
+2025-12-07 20:40:02 INFO  BaseElement - Text read from label: Log out
+2025-12-07 20:40:02 INFO  UITests - Login successful for email: user1765132778225@mail.com
+2025-12-07 20:41:53 INFO  UITests - Registering user: Multi ItemUser
+2025-12-07 20:41:54 INFO  BaseElement - Entered text 'Multi' into field: [[ChromeDriver: chrome on windows (89cf598d9c7df0111be0a22e093d0399)] -> id: FirstName]
+2025-12-07 20:41:55 INFO  BaseElement - Entered text 'ItemUser' into field: [[ChromeDriver: chrome on windows (89cf598d9c7df0111be0a22e093d0399)] -> id: LastName]
+2025-12-07 20:41:55 INFO  BaseElement - Entered text 'user1765132913878@mail.com' into field: [[ChromeDriver: chrome on windows (89cf598d9c7df0111be0a22e093d0399)] -> id: Email]
+2025-12-07 20:41:55 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (89cf598d9c7df0111be0a22e093d0399)] -> id: Password]
+2025-12-07 20:41:55 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (89cf598d9c7df0111be0a22e093d0399)] -> id: ConfirmPassword]
+2025-12-07 20:41:56 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.id: register-button'
+2025-12-07 20:42:06 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 20:42:06 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 20:42:06 INFO  UITests - Registration successful for email: user1765132913878@mail.com
+2025-12-07 20:42:06 INFO  UITests - Logging in with email: user1765132913878@mail.com
+2025-12-07 20:42:06 INFO  BaseElement - Entered text 'user1765132913878@mail.com' into field: [[ChromeDriver: chrome on windows (89cf598d9c7df0111be0a22e093d0399)] -> id: Email]
+2025-12-07 20:42:07 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (89cf598d9c7df0111be0a22e093d0399)] -> id: Password]
+2025-12-07 20:42:07 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.cssSelector: input.button-1.login-button'
+2025-12-07 20:42:17 INFO  BaseElement - Text read from label: Log out
+2025-12-07 20:42:17 INFO  UITests - Login successful for email: user1765132913878@mail.com
+2025-12-07 20:42:18 INFO  UITests - Scrolling to and adding product to cart: 14.1-inch Laptop
+2025-12-07 20:42:19 INFO  UITests - Registering user: Charlie Premium
+2025-12-07 20:42:20 INFO  BaseElement - Entered text 'Charlie' into field: [[ChromeDriver: chrome on windows (2a879484c74b5a0b07a51ba40bc78a21)] -> id: FirstName]
+2025-12-07 20:42:20 INFO  BaseElement - Entered text 'Premium' into field: [[ChromeDriver: chrome on windows (2a879484c74b5a0b07a51ba40bc78a21)] -> id: LastName]
+2025-12-07 20:42:20 INFO  BaseElement - Entered text 'user1765132939311@mail.com' into field: [[ChromeDriver: chrome on windows (2a879484c74b5a0b07a51ba40bc78a21)] -> id: Email]
+2025-12-07 20:42:20 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (2a879484c74b5a0b07a51ba40bc78a21)] -> id: Password]
+2025-12-07 20:42:20 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (2a879484c74b5a0b07a51ba40bc78a21)] -> id: ConfirmPassword]
+2025-12-07 20:44:50 INFO  UITests - Registering user: Multi ItemUser
+2025-12-07 20:44:52 INFO  BaseElement - Entered text 'Multi' into field: [[ChromeDriver: chrome on windows (b63ff626a4cda8d071aaf68c68e9ef2c)] -> id: FirstName]
+2025-12-07 20:44:52 INFO  BaseElement - Entered text 'ItemUser' into field: [[ChromeDriver: chrome on windows (b63ff626a4cda8d071aaf68c68e9ef2c)] -> id: LastName]
+2025-12-07 20:44:52 INFO  BaseElement - Entered text 'user1765133090818@mail.com' into field: [[ChromeDriver: chrome on windows (b63ff626a4cda8d071aaf68c68e9ef2c)] -> id: Email]
+2025-12-07 20:44:52 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (b63ff626a4cda8d071aaf68c68e9ef2c)] -> id: Password]
+2025-12-07 20:44:52 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (b63ff626a4cda8d071aaf68c68e9ef2c)] -> id: ConfirmPassword]
+2025-12-07 20:44:53 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.id: register-button'
+2025-12-07 20:45:03 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 20:45:03 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 20:45:03 INFO  UITests - Registration successful for email: user1765133090818@mail.com
+2025-12-07 20:45:18 INFO  UITests - Logging in with email: user1765133090818@mail.com
+2025-12-07 20:45:18 INFO  BaseElement - Entered text 'user1765133090818@mail.com' into field: [[ChromeDriver: chrome on windows (b63ff626a4cda8d071aaf68c68e9ef2c)] -> id: Email]
+2025-12-07 20:45:18 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (b63ff626a4cda8d071aaf68c68e9ef2c)] -> id: Password]
+2025-12-07 20:46:36 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.cssSelector: input.button-1.login-button'
+2025-12-07 20:46:46 INFO  BaseElement - Text read from label: Log out
+2025-12-07 20:46:46 INFO  UITests - Login successful for email: user1765133090818@mail.com
+2025-12-07 20:47:52 INFO  UITests - Adding product to cart: 14.1-inch Laptop
+2025-12-07 20:47:53 INFO  BaseElement - Scrolled to element: [[[[ChromeDriver: chrome on windows (b63ff626a4cda8d071aaf68c68e9ef2c)] -> css selector: .product-item]] -> css selector: input[value='Add to cart']]
+2025-12-07 20:47:53 INFO  BaseElement - Clicked on button: [[[[ChromeDriver: chrome on windows (b63ff626a4cda8d071aaf68c68e9ef2c)] -> css selector: .product-item]] -> css selector: input[value='Add to cart']]
+2025-12-07 20:48:53 INFO  BaseElement - Element is visible: [[ChromeDriver: chrome on windows (b63ff626a4cda8d071aaf68c68e9ef2c)] -> id: bar-notification]
+2025-12-07 20:48:53 INFO  BaseElement - Text read from label:   The product has been added to your shopping cart
+2025-12-07 20:48:53 INFO  UITests - Product added successfully: 14.1-inch Laptop
+2025-12-07 20:48:53 INFO  UITests - Adding product to cart: Build your own cheap computer
+2025-12-07 20:48:54 INFO  UITests - Registering user: Charlie Premium
+2025-12-07 20:49:01 INFO  BaseElement - Entered text 'Charlie' into field: [[ChromeDriver: chrome on windows (eec237a48feee2e85dfd703c69ae6b76)] -> id: FirstName]
+2025-12-07 20:49:01 INFO  BaseElement - Entered text 'Premium' into field: [[ChromeDriver: chrome on windows (eec237a48feee2e85dfd703c69ae6b76)] -> id: LastName]
+2025-12-07 20:49:01 INFO  BaseElement - Entered text 'user1765133334614@mail.com' into field: [[ChromeDriver: chrome on windows (eec237a48feee2e85dfd703c69ae6b76)] -> id: Email]
+2025-12-07 20:49:02 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (eec237a48feee2e85dfd703c69ae6b76)] -> id: Password]
+2025-12-07 20:49:02 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (eec237a48feee2e85dfd703c69ae6b76)] -> id: ConfirmPassword]
+2025-12-07 20:49:03 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.id: register-button'
+2025-12-07 20:49:13 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 20:49:13 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 20:49:13 INFO  UITests - Registration successful for email: user1765133334614@mail.com
+2025-12-07 20:49:14 INFO  UITests - Logging in with email: user1765133334614@mail.com
+2025-12-07 20:49:14 INFO  BaseElement - Entered text 'user1765133334614@mail.com' into field: [[ChromeDriver: chrome on windows (eec237a48feee2e85dfd703c69ae6b76)] -> id: Email]
+2025-12-07 20:49:14 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (eec237a48feee2e85dfd703c69ae6b76)] -> id: Password]
+2025-12-07 20:49:15 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.cssSelector: input.button-1.login-button'
+2025-12-07 20:49:25 INFO  BaseElement - Text read from label: Log out
+2025-12-07 20:49:25 INFO  UITests - Login successful for email: user1765133334614@mail.com
+2025-12-07 20:49:26 INFO  UITests - Registering user: Alice Test
+2025-12-07 20:49:28 INFO  BaseElement - Entered text 'Alice' into field: [[ChromeDriver: chrome on windows (ea48e18cb59082c4f65c92a1a6908e25)] -> id: FirstName]
+2025-12-07 20:49:28 INFO  BaseElement - Entered text 'Test' into field: [[ChromeDriver: chrome on windows (ea48e18cb59082c4f65c92a1a6908e25)] -> id: LastName]
+2025-12-07 20:49:28 INFO  BaseElement - Entered text 'user1765133366917@mail.com' into field: [[ChromeDriver: chrome on windows (ea48e18cb59082c4f65c92a1a6908e25)] -> id: Email]
+2025-12-07 20:49:28 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (ea48e18cb59082c4f65c92a1a6908e25)] -> id: Password]
+2025-12-07 20:49:28 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (ea48e18cb59082c4f65c92a1a6908e25)] -> id: ConfirmPassword]
+2025-12-07 20:49:29 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.id: register-button'
+2025-12-07 20:49:39 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 20:49:39 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 20:49:39 INFO  UITests - Registration successful for email: user1765133366917@mail.com
+2025-12-07 20:49:40 INFO  UITests - Logging in with email: user1765133366917@mail.com
+2025-12-07 20:49:40 INFO  BaseElement - Entered text 'user1765133366917@mail.com' into field: [[ChromeDriver: chrome on windows (ea48e18cb59082c4f65c92a1a6908e25)] -> id: Email]
+2025-12-07 20:49:40 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (ea48e18cb59082c4f65c92a1a6908e25)] -> id: Password]
+2025-12-07 20:49:41 INFO  BaseElement - Clicked on button: [[ChromeDriver: chrome on windows (ea48e18cb59082c4f65c92a1a6908e25)] -> css selector: input.button-1.login-button]
+2025-12-07 20:49:42 INFO  BaseElement - Text read from label: Log out
+2025-12-07 20:49:42 INFO  UITests - Login successful for email: user1765133366917@mail.com
+2025-12-07 20:49:42 INFO  BaseElement - Scrolled to element: [[[[ChromeDriver: chrome on windows (ea48e18cb59082c4f65c92a1a6908e25)] -> css selector: .product-item]] -> css selector: input[value='Add to cart']]
+2025-12-07 20:49:43 INFO  BaseElement - Clicked on button: [[[[ChromeDriver: chrome on windows (ea48e18cb59082c4f65c92a1a6908e25)] -> css selector: .product-item]] -> css selector: input[value='Add to cart']]
+2025-12-07 20:49:44 INFO  BaseElement - Element is visible: [[ChromeDriver: chrome on windows (ea48e18cb59082c4f65c92a1a6908e25)] -> id: bar-notification]
+2025-12-07 20:49:44 INFO  BaseElement - Text read from label:   The product has been added to your shopping cart
+2025-12-07 20:49:44 INFO  UITests - Product added successfully: 14.1-inch Laptop
+2025-12-07 20:51:14 INFO  UITests - Registering user: Multi ItemUser
+2025-12-07 20:51:15 INFO  BaseElement - Entered text 'Multi' into field: [[ChromeDriver: chrome on windows (dc55cfb0591d3193c1188a9720c833bc)] -> id: FirstName]
+2025-12-07 20:51:16 INFO  BaseElement - Entered text 'ItemUser' into field: [[ChromeDriver: chrome on windows (dc55cfb0591d3193c1188a9720c833bc)] -> id: LastName]
+2025-12-07 20:51:16 INFO  BaseElement - Entered text 'user1765133474519@mail.com' into field: [[ChromeDriver: chrome on windows (dc55cfb0591d3193c1188a9720c833bc)] -> id: Email]
+2025-12-07 20:51:16 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (dc55cfb0591d3193c1188a9720c833bc)] -> id: Password]
+2025-12-07 20:51:16 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (dc55cfb0591d3193c1188a9720c833bc)] -> id: ConfirmPassword]
+2025-12-07 20:51:17 INFO  BaseElement - Clicked on button: [[ChromeDriver: chrome on windows (dc55cfb0591d3193c1188a9720c833bc)] -> id: register-button]
+2025-12-07 20:51:18 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 20:51:18 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 20:51:18 INFO  UITests - Registration successful for email: user1765133474519@mail.com
+2025-12-07 20:51:18 INFO  UITests - Logging in with email: user1765133474519@mail.com
+2025-12-07 20:51:18 INFO  BaseElement - Entered text 'user1765133474519@mail.com' into field: [[ChromeDriver: chrome on windows (dc55cfb0591d3193c1188a9720c833bc)] -> id: Email]
+2025-12-07 20:51:18 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (dc55cfb0591d3193c1188a9720c833bc)] -> id: Password]
+2025-12-07 20:51:18 INFO  BaseElement - Clicked on button: [[ChromeDriver: chrome on windows (dc55cfb0591d3193c1188a9720c833bc)] -> css selector: input.button-1.login-button]
+2025-12-07 20:51:19 INFO  BaseElement - Text read from label: Log out
+2025-12-07 20:51:19 INFO  UITests - Login successful for email: user1765133474519@mail.com
+2025-12-07 20:51:20 INFO  UITests - Adding product to cart: 14.1-inch Laptop
+2025-12-07 20:51:20 INFO  BaseElement - Scrolled to element: [[[[ChromeDriver: chrome on windows (dc55cfb0591d3193c1188a9720c833bc)] -> css selector: .product-item]] -> css selector: input[value='Add to cart']]
+2025-12-07 20:51:20 INFO  BaseElement - Clicked on button: [[[[ChromeDriver: chrome on windows (dc55cfb0591d3193c1188a9720c833bc)] -> css selector: .product-item]] -> css selector: input[value='Add to cart']]
+2025-12-07 20:51:21 INFO  BaseElement - Element is visible: [[ChromeDriver: chrome on windows (dc55cfb0591d3193c1188a9720c833bc)] -> id: bar-notification]
+2025-12-07 20:51:21 INFO  BaseElement - Text read from label:   The product has been added to your shopping cart
+2025-12-07 20:51:21 INFO  UITests - Product added successfully: 14.1-inch Laptop
+2025-12-07 20:51:21 INFO  UITests - Adding product to cart: Build your own cheap computer
+2025-12-07 20:51:21 INFO  BaseElement - Scrolled to element: [[[[ChromeDriver: chrome on windows (dc55cfb0591d3193c1188a9720c833bc)] -> css selector: .product-item]] -> css selector: input[value='Add to cart']]
+2025-12-07 20:51:22 INFO  BaseElement - Clicked on button: [[[[ChromeDriver: chrome on windows (dc55cfb0591d3193c1188a9720c833bc)] -> css selector: .product-item]] -> css selector: input[value='Add to cart']]
+2025-12-07 20:51:22 INFO  BaseElement - Element is visible: [[ChromeDriver: chrome on windows (dc55cfb0591d3193c1188a9720c833bc)] -> id: bar-notification]
+2025-12-07 20:57:15 INFO  BaseElement - Text read from label:   The product has been added to your shopping cart
+2025-12-07 20:57:15 INFO  UITests - Product added successfully: Build your own cheap computer
+2025-12-07 20:57:15 INFO  UITests - Adding product to cart: Build your own expensive computer
+2025-12-07 20:57:15 INFO  BaseElement - Scrolled to element: [[[[ChromeDriver: chrome on windows (dc55cfb0591d3193c1188a9720c833bc)] -> css selector: .product-item]] -> css selector: input[value='Add to cart']]
+2025-12-07 20:57:15 INFO  BaseElement - Clicked on button: [[[[ChromeDriver: chrome on windows (dc55cfb0591d3193c1188a9720c833bc)] -> css selector: .product-item]] -> css selector: input[value='Add to cart']]
+2025-12-07 20:57:15 INFO  BaseElement - Element is visible: [[ChromeDriver: chrome on windows (dc55cfb0591d3193c1188a9720c833bc)] -> id: bar-notification]
+2025-12-07 20:57:15 INFO  BaseElement - Text read from label:   The product has been added to your shopping cart
+2025-12-07 20:57:15 INFO  UITests - Product added successfully: Build your own expensive computer
+2025-12-07 20:57:16 INFO  UITests - Registering user: Charlie Premium
+2025-12-07 20:57:17 INFO  BaseElement - Entered text 'Charlie' into field: [[ChromeDriver: chrome on windows (d91415dd0e5a8bcac77db74e477f8486)] -> id: FirstName]
+2025-12-07 20:57:17 INFO  BaseElement - Entered text 'Premium' into field: [[ChromeDriver: chrome on windows (d91415dd0e5a8bcac77db74e477f8486)] -> id: LastName]
+2025-12-07 20:57:17 INFO  BaseElement - Entered text 'user1765133836502@mail.com' into field: [[ChromeDriver: chrome on windows (d91415dd0e5a8bcac77db74e477f8486)] -> id: Email]
+2025-12-07 20:57:17 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (d91415dd0e5a8bcac77db74e477f8486)] -> id: Password]
+2025-12-07 20:57:18 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (d91415dd0e5a8bcac77db74e477f8486)] -> id: ConfirmPassword]
+2025-12-07 20:57:18 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.id: register-button'
+2025-12-07 21:00:21 INFO  UITests - Registering user: Multi ItemUser
+2025-12-07 21:00:22 INFO  BaseElement - Entered text 'Multi' into field: [[ChromeDriver: chrome on windows (ffdcddec1132287caac0f1349fad9a02)] -> id: FirstName]
+2025-12-07 21:00:22 INFO  BaseElement - Entered text 'ItemUser' into field: [[ChromeDriver: chrome on windows (ffdcddec1132287caac0f1349fad9a02)] -> id: LastName]
+2025-12-07 21:00:23 INFO  BaseElement - Entered text 'user1765134021516@mail.com' into field: [[ChromeDriver: chrome on windows (ffdcddec1132287caac0f1349fad9a02)] -> id: Email]
+2025-12-07 21:00:23 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (ffdcddec1132287caac0f1349fad9a02)] -> id: Password]
+2025-12-07 21:00:23 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (ffdcddec1132287caac0f1349fad9a02)] -> id: ConfirmPassword]
+2025-12-07 21:00:24 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.id: register-button'
+2025-12-07 21:00:34 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 21:00:34 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 21:00:34 INFO  UITests - Registration successful for email: user1765134021516@mail.com
+2025-12-07 21:00:34 INFO  UITests - Logging in with email: user1765134021516@mail.com
+2025-12-07 21:00:34 INFO  BaseElement - Entered text 'user1765134021516@mail.com' into field: [[ChromeDriver: chrome on windows (ffdcddec1132287caac0f1349fad9a02)] -> id: Email]
+2025-12-07 21:00:34 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (ffdcddec1132287caac0f1349fad9a02)] -> id: Password]
+2025-12-07 21:00:35 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.cssSelector: input.button-1.login-button'
+2025-12-07 21:00:45 INFO  BaseElement - Text read from label: Log out
+2025-12-07 21:00:45 INFO  UITests - Login successful for email: user1765134021516@mail.com
+2025-12-07 21:00:46 INFO  UITests - Adding product to cart: 14.1-inch Laptop
+2025-12-07 21:00:46 INFO  BaseElement - Scrolled to element: [[[[ChromeDriver: chrome on windows (ffdcddec1132287caac0f1349fad9a02)] -> css selector: .product-item]] -> css selector: input[value='Add to cart']]
+2025-12-07 21:00:46 INFO  BaseElement - Clicked on button: [[[[ChromeDriver: chrome on windows (ffdcddec1132287caac0f1349fad9a02)] -> css selector: .product-item]] -> css selector: input[value='Add to cart']]
+2025-12-07 21:00:46 INFO  BaseElement - Element is visible: [[ChromeDriver: chrome on windows (ffdcddec1132287caac0f1349fad9a02)] -> id: bar-notification]
+2025-12-07 21:00:46 INFO  BaseElement - Text read from label:   The product has been added to your shopping cart
+2025-12-07 21:00:46 INFO  UITests - Product added successfully: 14.1-inch Laptop
+2025-12-07 21:00:46 INFO  UITests - Adding product to cart: Build your own cheap computer
+2025-12-07 21:00:46 INFO  BaseElement - Scrolled to element: [[[[ChromeDriver: chrome on windows (ffdcddec1132287caac0f1349fad9a02)] -> css selector: .product-item]] -> css selector: input[value='Add to cart']]
+2025-12-07 21:00:47 INFO  BaseElement - Clicked on button: [[[[ChromeDriver: chrome on windows (ffdcddec1132287caac0f1349fad9a02)] -> css selector: .product-item]] -> css selector: input[value='Add to cart']]
+2025-12-07 21:00:47 INFO  BaseElement - Element is visible: [[ChromeDriver: chrome on windows (ffdcddec1132287caac0f1349fad9a02)] -> id: bar-notification]
+2025-12-07 21:02:56 INFO  UITests - Registering user: Multi ItemUser
+2025-12-07 21:02:57 INFO  BaseElement - Entered text 'Multi' into field: [[ChromeDriver: chrome on windows (0877035d36166907fe03760a9121642b)] -> id: FirstName]
+2025-12-07 21:02:57 INFO  BaseElement - Entered text 'ItemUser' into field: [[ChromeDriver: chrome on windows (0877035d36166907fe03760a9121642b)] -> id: LastName]
+2025-12-07 21:02:58 INFO  BaseElement - Entered text 'user1765134176525@mail.com' into field: [[ChromeDriver: chrome on windows (0877035d36166907fe03760a9121642b)] -> id: Email]
+2025-12-07 21:02:58 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (0877035d36166907fe03760a9121642b)] -> id: Password]
+2025-12-07 21:02:58 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (0877035d36166907fe03760a9121642b)] -> id: ConfirmPassword]
+2025-12-07 21:02:59 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.id: register-button'
+2025-12-07 21:03:09 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 21:03:09 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 21:03:09 INFO  UITests - Registration successful for email: user1765134176525@mail.com
+2025-12-07 21:03:09 INFO  UITests - Logging in with email: user1765134176525@mail.com
+2025-12-07 21:03:09 INFO  BaseElement - Entered text 'user1765134176525@mail.com' into field: [[ChromeDriver: chrome on windows (0877035d36166907fe03760a9121642b)] -> id: Email]
+2025-12-07 21:03:10 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (0877035d36166907fe03760a9121642b)] -> id: Password]
+2025-12-07 21:03:10 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.cssSelector: input.button-1.login-button'
+2025-12-07 21:03:20 INFO  BaseElement - Text read from label: Log out
+2025-12-07 21:03:20 INFO  UITests - Login successful for email: user1765134176525@mail.com
+2025-12-07 21:03:21 INFO  UITests - Adding product to cart: 14.1-inch Laptop
+2025-12-07 21:03:21 INFO  BaseElement - Scrolled to element: [[[[ChromeDriver: chrome on windows (0877035d36166907fe03760a9121642b)] -> css selector: .product-item]] -> css selector: input[value='Add to cart']]
+2025-12-07 21:03:21 INFO  BaseElement - Clicked on button: [[[[ChromeDriver: chrome on windows (0877035d36166907fe03760a9121642b)] -> css selector: .product-item]] -> css selector: input[value='Add to cart']]
+2025-12-07 21:03:21 INFO  BaseElement - Element is visible: [[ChromeDriver: chrome on windows (0877035d36166907fe03760a9121642b)] -> id: bar-notification]
+2025-12-07 21:03:21 INFO  BaseElement - Text read from label:   The product has been added to your shopping cart
+2025-12-07 21:03:21 INFO  UITests - Product added successfully: 14.1-inch Laptop
+2025-12-07 21:03:21 INFO  UITests - Adding product to cart: Build your own cheap computer
+2025-12-07 21:03:24 INFO  BaseElement - Text read from label:   The product has been added to your shopping cart
+2025-12-07 21:03:24 INFO  UITests - Product added successfully: Build your own cheap computer
+2025-12-07 21:03:24 INFO  UITests - Adding product to cart: Build your own expensive computer
+2025-12-07 21:03:25 INFO  BaseElement - Text read from label:   The product has been added to your shopping cart
+2025-12-07 21:03:25 INFO  UITests - Product added successfully: Build your own expensive computer
+2025-12-07 21:03:26 INFO  UITests - Registering user: Charlie Premium
+2025-12-07 21:03:27 INFO  BaseElement - Entered text 'Charlie' into field: [[ChromeDriver: chrome on windows (2836de1c36285192445cca694d66c8a7)] -> id: FirstName]
+2025-12-07 21:03:28 INFO  BaseElement - Entered text 'Premium' into field: [[ChromeDriver: chrome on windows (2836de1c36285192445cca694d66c8a7)] -> id: LastName]
+2025-12-07 21:03:28 INFO  BaseElement - Entered text 'user1765134206919@mail.com' into field: [[ChromeDriver: chrome on windows (2836de1c36285192445cca694d66c8a7)] -> id: Email]
+2025-12-07 21:03:28 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (2836de1c36285192445cca694d66c8a7)] -> id: Password]
+2025-12-07 21:03:28 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (2836de1c36285192445cca694d66c8a7)] -> id: ConfirmPassword]
+2025-12-07 21:03:29 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.id: register-button'
+2025-12-07 21:03:40 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 21:03:40 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 21:03:40 INFO  UITests - Registration successful for email: user1765134206919@mail.com
+2025-12-07 21:03:40 INFO  UITests - Logging in with email: user1765134206919@mail.com
+2025-12-07 21:03:40 INFO  BaseElement - Entered text 'user1765134206919@mail.com' into field: [[ChromeDriver: chrome on windows (2836de1c36285192445cca694d66c8a7)] -> id: Email]
+2025-12-07 21:03:40 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (2836de1c36285192445cca694d66c8a7)] -> id: Password]
+2025-12-07 21:03:41 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.cssSelector: input.button-1.login-button'
+2025-12-07 21:03:51 INFO  BaseElement - Text read from label: Log out
+2025-12-07 21:03:51 INFO  UITests - Login successful for email: user1765134206919@mail.com
+2025-12-07 21:03:54 INFO  BaseElement - Text read from label:   The product has been added to your shopping cart
+2025-12-07 21:03:54 INFO  UITests - Product added successfully: Build your own expensive computer
+2025-12-07 21:03:55 INFO  UITests - Registering user: Alice Test
+2025-12-07 21:03:56 INFO  BaseElement - Entered text 'Alice' into field: [[ChromeDriver: chrome on windows (2550e18ba7a445c045568d8f53712b50)] -> id: FirstName]
+2025-12-07 21:03:57 INFO  BaseElement - Entered text 'Test' into field: [[ChromeDriver: chrome on windows (2550e18ba7a445c045568d8f53712b50)] -> id: LastName]
+2025-12-07 21:03:57 INFO  BaseElement - Entered text 'user1765134235152@mail.com' into field: [[ChromeDriver: chrome on windows (2550e18ba7a445c045568d8f53712b50)] -> id: Email]
+2025-12-07 21:03:57 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (2550e18ba7a445c045568d8f53712b50)] -> id: Password]
+2025-12-07 21:03:57 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (2550e18ba7a445c045568d8f53712b50)] -> id: ConfirmPassword]
+2025-12-07 21:03:58 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.id: register-button'
+2025-12-07 21:04:08 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 21:04:08 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 21:04:08 INFO  UITests - Registration successful for email: user1765134235152@mail.com
+2025-12-07 21:04:09 INFO  UITests - Logging in with email: user1765134235152@mail.com
+2025-12-07 21:04:09 INFO  BaseElement - Entered text 'user1765134235152@mail.com' into field: [[ChromeDriver: chrome on windows (2550e18ba7a445c045568d8f53712b50)] -> id: Email]
+2025-12-07 21:04:09 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (2550e18ba7a445c045568d8f53712b50)] -> id: Password]
+2025-12-07 21:04:10 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.cssSelector: input.button-1.login-button'
+2025-12-07 21:04:20 INFO  BaseElement - Text read from label: Log out
+2025-12-07 21:04:20 INFO  UITests - Login successful for email: user1765134235152@mail.com
+2025-12-07 21:04:21 INFO  BaseElement - Scrolled to element: [[[[ChromeDriver: chrome on windows (2550e18ba7a445c045568d8f53712b50)] -> css selector: .product-item]] -> css selector: input[value='Add to cart']]
+2025-12-07 21:04:21 INFO  BaseElement - Clicked on button: [[[[ChromeDriver: chrome on windows (2550e18ba7a445c045568d8f53712b50)] -> css selector: .product-item]] -> css selector: input[value='Add to cart']]
+2025-12-07 21:04:21 INFO  BaseElement - Element is visible: [[ChromeDriver: chrome on windows (2550e18ba7a445c045568d8f53712b50)] -> id: bar-notification]
+2025-12-07 21:04:21 INFO  BaseElement - Text read from label:   The product has been added to your shopping cart
+2025-12-07 21:04:21 INFO  UITests - Product added successfully: 14.1-inch Laptop
+2025-12-07 22:46:27 INFO  UITests - Starting registration for Multi ItemUser
+2025-12-07 22:46:28 INFO  BaseElement - Entered text 'Multi' into field: [[ChromeDriver: chrome on windows (808f7c23818563556609d8abc938c303)] -> id: FirstName]
+2025-12-07 22:46:28 INFO  BaseElement - Entered text 'ItemUser' into field: [[ChromeDriver: chrome on windows (808f7c23818563556609d8abc938c303)] -> id: LastName]
+2025-12-07 22:46:28 INFO  BaseElement - Entered text 'user1765140387299@mail.com' into field: [[ChromeDriver: chrome on windows (808f7c23818563556609d8abc938c303)] -> id: Email]
+2025-12-07 22:46:28 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (808f7c23818563556609d8abc938c303)] -> id: Password]
+2025-12-07 22:46:29 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (808f7c23818563556609d8abc938c303)] -> id: ConfirmPassword]
+2025-12-07 22:46:29 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.id: register-button'
+2025-12-07 22:46:39 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 22:46:39 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 22:46:39 INFO  UITests - Registration successful for email: user1765140387299@mail.com
+2025-12-07 22:46:39 DEBUG logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2025-12-07 22:46:39 DEBUG IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2025-12-07 22:46:39 DEBUG IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2025-12-07 22:46:39 DEBUG IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2025-12-07 22:46:40 INFO  Version - HHH000412: Hibernate Core {5.3.20.Final}
+2025-12-07 22:46:40 INFO  Environment - HHH000206: hibernate.properties not found
+2025-12-07 22:46:40 DEBUG IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2025-12-07 22:46:40 DEBUG IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2025-12-07 22:46:40 DEBUG IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2025-12-07 22:46:40 DEBUG ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2025-12-07 22:46:40 DEBUG RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2025-12-07 22:46:40 DEBUG RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2025-12-07 22:46:40 INFO  Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@48cd319d
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@48cd319d
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@48cd319d
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@16cf8438
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@5968800d
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@4f1afe8f
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@2a0b901c
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@2a0b901c
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@2a0b901c
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@22f02996
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@22f02996
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@22f02996
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@5d194314
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@5d194314
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@5d194314
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@4dc52559
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@4dc52559
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@4dc52559
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@515ab3f2
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@515ab3f2
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@515ab3f2
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@5fef0c19
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@5fef0c19
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@5fef0c19
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@34a20f16
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@34a20f16
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@34a20f16
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@67b61834
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@67b61834
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@691567ea
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@691567ea
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@6de7778f
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@6de7778f
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@350da119
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@8b13d91
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@5657967b
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@5657967b
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@6de43bc1
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@6de43bc1
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@6222391a
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@6222391a
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@12abcd1e
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@12abcd1e
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@33d28f0a
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@33d28f0a
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@41aebbb4
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@41aebbb4
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@34279b8a
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@34279b8a
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@6f91fbda
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@6f91fbda
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6d7ad0f5
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6d7ad0f5
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@6870cfac
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@6870cfac
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@10b8b900
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@10b8b900
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@7d0cd23c
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@7d0cd23c
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@7d0cd23c
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@53314f76
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@7b9088f2
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@7b9088f2
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@7b9088f2
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@2506b881
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@7ac48e10
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@7ac48e10
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@231cdda8
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@231cdda8
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@6d4a82
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@6d4a82
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@2eb0cefe
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@2eb0cefe
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@212fafd1
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@212fafd1
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@4f235107
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@6c835217
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@6c835217
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@6c835217
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@23bd0c81
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@23bd0c81
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@23bd0c81
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@2407a36c
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@22cb3d59
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@4602f874
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@4602f874
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@4602f874
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@3e14d390
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@3e14d390
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@3e14d390
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@29bbc391
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@4def7d36
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@4fea840f
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@4fea840f
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@1b8aaeab
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@682e422c
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@682e422c
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@27ec8754
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@27ec8754
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@62f9c790
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@656842bc
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@143fefaf
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@28ee882c
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@28ee882c
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@681e913c
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@29d070c7
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@1eeb5818
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@44dfdd58
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@58d4238e
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@72a8361b
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@36478bce
+2025-12-07 22:46:40 DEBUG BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@c48b543
+2025-12-07 22:46:40 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2025-12-07 22:46:40 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2025-12-07 22:46:40 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2025-12-07 22:46:40 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2025-12-07 22:46:40 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2025-12-07 22:46:40 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2025-12-07 22:46:40 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2025-12-07 22:46:40 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2025-12-07 22:46:40 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2025-12-07 22:46:40 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2025-12-07 22:46:40 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2025-12-07 22:46:40 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2025-12-07 22:46:40 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2025-12-07 22:46:40 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2025-12-07 22:46:40 WARN  pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-12-07 22:46:41 INFO  UITests - Starting registration for Alice Test
+2025-12-07 22:46:42 INFO  BaseElement - Entered text 'Alice' into field: [[ChromeDriver: chrome on windows (0677b4eafef898aff670afa83f10b71c)] -> id: FirstName]
+2025-12-07 22:46:42 INFO  BaseElement - Entered text 'Test' into field: [[ChromeDriver: chrome on windows (0677b4eafef898aff670afa83f10b71c)] -> id: LastName]
+2025-12-07 22:46:42 INFO  BaseElement - Entered text 'user1765140401183@mail.com' into field: [[ChromeDriver: chrome on windows (0677b4eafef898aff670afa83f10b71c)] -> id: Email]
+2025-12-07 22:46:42 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (0677b4eafef898aff670afa83f10b71c)] -> id: Password]
+2025-12-07 22:46:42 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (0677b4eafef898aff670afa83f10b71c)] -> id: ConfirmPassword]
+2025-12-07 22:46:43 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.id: register-button'
+2025-12-07 22:46:53 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 22:46:53 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 22:46:53 INFO  UITests - Registration successful for email: user1765140401183@mail.com
+2025-12-07 22:46:54 INFO  UITests - Starting registration for Charlie Premium
+2025-12-07 22:46:55 INFO  BaseElement - Entered text 'Charlie' into field: [[ChromeDriver: chrome on windows (3fc617df6700a4c8d1cc021eed3c7c7a)] -> id: FirstName]
+2025-12-07 22:46:55 INFO  BaseElement - Entered text 'Premium' into field: [[ChromeDriver: chrome on windows (3fc617df6700a4c8d1cc021eed3c7c7a)] -> id: LastName]
+2025-12-07 22:46:56 INFO  BaseElement - Entered text 'user1765140414549@mail.com' into field: [[ChromeDriver: chrome on windows (3fc617df6700a4c8d1cc021eed3c7c7a)] -> id: Email]
+2025-12-07 22:46:56 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (3fc617df6700a4c8d1cc021eed3c7c7a)] -> id: Password]
+2025-12-07 22:46:56 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (3fc617df6700a4c8d1cc021eed3c7c7a)] -> id: ConfirmPassword]
+2025-12-07 22:46:56 INFO  BaseElement - Clicked on button: [[ChromeDriver: chrome on windows (3fc617df6700a4c8d1cc021eed3c7c7a)] -> id: register-button]
+2025-12-07 22:46:57 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 22:46:57 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 22:46:57 INFO  UITests - Registration successful for email: user1765140414549@mail.com
+2025-12-07 22:49:07 INFO  UITests - Starting registration for Multi ItemUser
+2025-12-07 22:49:08 INFO  BaseElement - Entered text 'Multi' into field: [[ChromeDriver: chrome on windows (b012175e8ab052a5303cef33c8c3f792)] -> id: FirstName]
+2025-12-07 22:49:08 INFO  BaseElement - Entered text 'ItemUser' into field: [[ChromeDriver: chrome on windows (b012175e8ab052a5303cef33c8c3f792)] -> id: LastName]
+2025-12-07 22:49:08 INFO  BaseElement - Entered text 'user1765140547018@mail.com' into field: [[ChromeDriver: chrome on windows (b012175e8ab052a5303cef33c8c3f792)] -> id: Email]
+2025-12-07 22:49:08 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (b012175e8ab052a5303cef33c8c3f792)] -> id: Password]
+2025-12-07 22:49:08 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (b012175e8ab052a5303cef33c8c3f792)] -> id: ConfirmPassword]
+2025-12-07 22:49:09 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.id: register-button'
+2025-12-07 22:49:19 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 22:49:19 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 22:49:19 INFO  UITests - Registration successful for email: user1765140547018@mail.com
+2025-12-07 22:49:19 DEBUG logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2025-12-07 22:49:19 DEBUG IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2025-12-07 22:49:19 DEBUG IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2025-12-07 22:49:19 DEBUG IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2025-12-07 22:49:19 INFO  Version - HHH000412: Hibernate Core {5.3.20.Final}
+2025-12-07 22:49:19 INFO  Environment - HHH000206: hibernate.properties not found
+2025-12-07 22:49:19 DEBUG IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2025-12-07 22:49:19 DEBUG IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2025-12-07 22:49:19 DEBUG IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2025-12-07 22:49:19 DEBUG ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2025-12-07 22:49:19 DEBUG RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2025-12-07 22:49:19 DEBUG RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2025-12-07 22:49:19 INFO  Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@4f820f42
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@4f820f42
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@4f820f42
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@261de205
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@4525e9e8
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@32a72c4
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@59d0cdb6
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@59d0cdb6
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@59d0cdb6
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@73e776b7
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@73e776b7
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@73e776b7
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@55736cfe
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@55736cfe
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@55736cfe
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@7015ebef
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@7015ebef
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@7015ebef
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@617449dd
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@617449dd
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@617449dd
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@25953be6
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@25953be6
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@25953be6
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@5927f904
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@5927f904
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@5927f904
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@3ca14cf4
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@3ca14cf4
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@5b8572df
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@5b8572df
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@64518270
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@64518270
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@b5b9333
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@2a8f6e6
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@57e5396b
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@57e5396b
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@38fb50f8
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@38fb50f8
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@62ade015
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@62ade015
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@324b6a56
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@324b6a56
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@6ee5f485
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@6ee5f485
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@49fdbe2b
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@49fdbe2b
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@7197b07f
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@7197b07f
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@382dc417
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@382dc417
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@3e26482
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@3e26482
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@1a21f43f
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@1a21f43f
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@7fd99443
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@7fd99443
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@6637a365
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@6637a365
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@6637a365
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@35787726
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@798cb6d9
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@798cb6d9
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@798cb6d9
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@724bf25f
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@613f7eb7
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@613f7eb7
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@643ba1ed
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@643ba1ed
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@1f84327b
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@1f84327b
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@5e1a986c
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@5e1a986c
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@44f0ff2b
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@44f0ff2b
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@9cfc77
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@773c2214
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@773c2214
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@773c2214
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@2dd1086
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@2dd1086
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@2dd1086
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@28393e82
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@265a094b
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@16d0e521
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@16d0e521
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@16d0e521
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@1d6a8386
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@1d6a8386
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@1d6a8386
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@491cafec
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@7889b4b9
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@480cbe2e
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@480cbe2e
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@73608eb0
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@c4d2c44
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@c4d2c44
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@5c48b72c
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@5c48b72c
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@7ce29a2d
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@5fffb692
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@4962b41e
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@632b305d
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@632b305d
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@2db15f70
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@25974207
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@1f15e689
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@195113de
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@3ebc955b
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@21a46ff1
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@11b5f4e2
+2025-12-07 22:49:19 DEBUG BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@6bcae9
+2025-12-07 22:49:19 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2025-12-07 22:49:19 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2025-12-07 22:49:19 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2025-12-07 22:49:19 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2025-12-07 22:49:19 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2025-12-07 22:49:19 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2025-12-07 22:49:19 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2025-12-07 22:49:19 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2025-12-07 22:49:19 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2025-12-07 22:49:19 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2025-12-07 22:49:19 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2025-12-07 22:49:19 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2025-12-07 22:49:19 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2025-12-07 22:49:19 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2025-12-07 22:49:19 WARN  pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-12-07 22:49:19 INFO  pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:testdb]
+2025-12-07 22:49:19 INFO  pooling - HHH10001001: Connection properties: {password=, user=sa}
+2025-12-07 22:49:19 INFO  pooling - HHH10001003: Autocommit mode: false
+2025-12-07 22:49:19 DEBUG DriverManagerConnectionProviderImpl - Initializing Connection pool with 1 Connections
+2025-12-07 22:49:19 INFO  DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-12-07 22:49:20 DEBUG JdbcEnvironmentInitiator - Database ->
+       name : H2
+    version : 2.4.240 (2025-09-22)
+      major : 2
+      minor : 4
+2025-12-07 22:49:20 DEBUG JdbcEnvironmentInitiator - Driver ->
+       name : H2 JDBC Driver
+    version : 2.4.240 (2025-09-22)
+      major : 2
+      minor : 4
+2025-12-07 22:49:20 DEBUG JdbcEnvironmentInitiator - JDBC version : 4.3
+2025-12-07 22:49:20 INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-12-07 22:49:20 DEBUG IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+2025-12-07 22:49:20 DEBUG Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2025-12-07 22:49:20 DEBUG TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@661e279d] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@beabd6b]
+2025-12-07 22:49:20 DEBUG SessionFactoryImpl - Building session factory
+2025-12-07 22:49:20 DEBUG Settings - SessionFactory name : null
+2025-12-07 22:49:20 DEBUG Settings - Automatic flush during beforeCompletion(): enabled
+2025-12-07 22:49:20 DEBUG Settings - Automatic session close at end of transaction: disabled
+2025-12-07 22:49:20 DEBUG Settings - Statistics: disabled
+2025-12-07 22:49:20 DEBUG Settings - Deleted entity synthetic identifier rollback: disabled
+2025-12-07 22:49:20 DEBUG Settings - Default entity-mode: pojo
+2025-12-07 22:49:20 DEBUG Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2025-12-07 22:49:20 DEBUG Settings - Allow initialization of lazy state outside session : disabled
+2025-12-07 22:49:20 DEBUG Settings - Using BatchFetchStyle : LEGACY
+2025-12-07 22:49:20 DEBUG Settings - Default batch fetch size: -1
+2025-12-07 22:49:20 DEBUG Settings - Maximum outer join fetch depth: null
+2025-12-07 22:49:20 DEBUG Settings - Default null ordering: NONE
+2025-12-07 22:49:20 DEBUG Settings - Order SQL updates by primary key: disabled
+2025-12-07 22:49:20 DEBUG Settings - Order SQL inserts for batching: disabled
+2025-12-07 22:49:20 DEBUG Settings - multi-tenancy strategy : NONE
+2025-12-07 22:49:20 DEBUG Settings - JTA Track by Thread: enabled
+2025-12-07 22:49:20 DEBUG Settings - Query language substitutions: {}
+2025-12-07 22:49:20 DEBUG Settings - Named query checking : enabled
+2025-12-07 22:49:20 DEBUG Settings - Second-level cache: disabled
+2025-12-07 22:49:20 DEBUG Settings - Second-level query cache: disabled
+2025-12-07 22:49:20 DEBUG Settings - Second-level query cache factory: null
+2025-12-07 22:49:20 DEBUG Settings - Second-level cache region prefix: null
+2025-12-07 22:49:20 DEBUG Settings - Optimize second-level cache for minimal puts: disabled
+2025-12-07 22:49:20 DEBUG Settings - Structured second-level cache entries: disabled
+2025-12-07 22:49:20 DEBUG Settings - Second-level cache direct-reference entries: disabled
+2025-12-07 22:49:20 DEBUG Settings - Automatic eviction of collection cache: disabled
+2025-12-07 22:49:20 DEBUG Settings - JDBC batch size: 15
+2025-12-07 22:49:20 DEBUG Settings - JDBC batch updates for versioned data: enabled
+2025-12-07 22:49:20 DEBUG Settings - Scrollable result sets: enabled
+2025-12-07 22:49:20 DEBUG Settings - Wrap result sets: disabled
+2025-12-07 22:49:20 DEBUG Settings - JDBC3 getGeneratedKeys(): enabled
+2025-12-07 22:49:20 DEBUG Settings - JDBC result set fetch size: null
+2025-12-07 22:49:20 DEBUG Settings - Connection release mode: AFTER_TRANSACTION
+2025-12-07 22:49:20 DEBUG Settings - Generate SQL with comments: disabled
+2025-12-07 22:49:20 DEBUG Settings - JPA compliance - query : 
+2025-12-07 22:49:20 DEBUG Settings - JPA compliance - closed-handling : 
+2025-12-07 22:49:20 DEBUG Settings - JPA compliance - lists : 
+2025-12-07 22:49:20 DEBUG Settings - JPA compliance - transactions : 
+2025-12-07 22:49:20 DEBUG SessionFactoryImpl - Session factory constructed with filter configurations : {}
+2025-12-07 22:49:20 DEBUG SessionFactoryImpl - Instantiating session factory with properties: {java.specification.version=23, webdriver.chrome.driver=C:\Users\home\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1251, hibernate.dialect=org.hibernate.dialect.H2Dialect, java.class.path=D:\IntelliJ IDEA Community Edition 2024.3.4\lib\idea_rt.jar;D:\IntelliJ IDEA Community Edition 2024.3.4\plugins\testng\lib\testng-rt.jar;C:\Users\home\Desktop\at_pet\at_petproject\target\test-classes;C:\Users\home\Desktop\at_pet\at_petproject\target\classes;C:\Users\home\.m2\repository\org\json\json\20231013\json-20231013.jar;C:\Users\home\.m2\repository\org\hibernate\hibernate-core\5.3.20.Final\hibernate-core-5.3.20.Final.jar;C:\Users\home\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;C:\Users\home\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\home\.m2\repository\org\javassist\javassist\3.23.2-GA\javassist-3.23.2-GA.jar;C:\Users\home\.m2\repository\net\bytebuddy\byte-buddy\1.9.11\byte-buddy-1.9.11.jar;C:\Users\home\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\home\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\home\.m2\repository\org\jboss\jandex\2.0.5.Final\jandex-2.0.5.Final.jar;C:\Users\home\.m2\repository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar;C:\Users\home\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\home\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\home\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.4.Final\hibernate-commons-annotations-5.0.4.Final.jar;C:\Users\home\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\home\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\home\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\home\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\home\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\home\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\home\.m2\repository\org\slf4j\slf4j-simple\1.7.5\slf4j-simple-1.7.5.jar;C:\Users\home\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\home\.m2\repository\mysql\mysql-connector-java\8.0.28\mysql-connector-java-8.0.28.jar;C:\Users\home\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\Users\home\.m2\repository\io\github\bonigarcia\webdrivermanager\6.1.0\webdrivermanager-6.1.0.jar;C:\Users\home\.m2\repository\com\google\code\gson\gson\2.13.0\gson-2.13.0.jar;C:\Users\home\.m2\repository\com\github\docker-java\docker-java\3.5.0\docker-java-3.5.0.jar;C:\Users\home\.m2\repository\com\github\docker-java\docker-java-core\3.5.0\docker-java-core-3.5.0.jar;C:\Users\home\.m2\repository\com\github\docker-java\docker-java-api\3.5.0\docker-java-api-3.5.0.jar;C:\Users\home\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\home\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.0\docker-java-transport-httpclient5-3.5.0.jar;C:\Users\home\.m2\repository\com\github\docker-java\docker-java-transport\3.5.0\docker-java-transport-3.5.0.jar;C:\Users\home\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\home\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\home\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\home\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\home\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\home\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\home\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\home\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\home\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\home\.m2\repository\net\java\dev\jna\jna-platform\5.13.0\jna-platform-5.13.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-java\4.34.0\selenium-java-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-api\4.34.0\selenium-api-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.34.0\selenium-chrome-driver-4.34.0.jar;C:\Users\home\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.34.0\selenium-chromium-driver-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-json\4.34.0\selenium-json-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.34.0\selenium-manager-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.34.0\selenium-devtools-v136-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.34.0\selenium-devtools-v137-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.34.0\selenium-devtools-v138-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.34.0\selenium-edge-driver-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.34.0\selenium-firefox-driver-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-http\4.34.0\selenium-http-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.34.0\selenium-ie-driver-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.34.0\selenium-remote-driver-4.34.0.jar;C:\Users\home\.m2\repository\io\opentelemetry\opentelemetry-api\1.51.0\opentelemetry-api-1.51.0.jar;C:\Users\home\.m2\repository\io\opentelemetry\opentelemetry-context\1.51.0\opentelemetry-context-1.51.0.jar;C:\Users\home\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.51.0\opentelemetry-exporter-logging-1.51.0.jar;C:\Users\home\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.51.0\opentelemetry-sdk-common-1.51.0.jar;C:\Users\home\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.51.0\opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar;C:\Users\home\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.51.0\opentelemetry-sdk-extension-autoconfigure-1.51.0.jar;C:\Users\home\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.51.0\opentelemetry-sdk-trace-1.51.0.jar;C:\Users\home\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.51.0\opentelemetry-sdk-1.51.0.jar;C:\Users\home\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.51.0\opentelemetry-sdk-metrics-1.51.0.jar;C:\Users\home\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.51.0\opentelemetry-sdk-logs-1.51.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-os\4.34.0\selenium-os-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.34.0\selenium-safari-driver-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-support\4.34.0\selenium-support-4.34.0.jar;C:\Users\home\.m2\repository\org\aspectj\aspectjweaver\1.9.22\aspectjweaver-1.9.22.jar;C:\Users\home\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\home\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\home\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\home\.m2\repository\io\appium\java-client\9.5.0\java-client-9.5.0.jar;C:\Users\home\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\home\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\home\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\home\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\home\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\home\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\home\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\home\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\home\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.0\jackson-databind-2.16.0.jar;C:\Users\home\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.0\jackson-annotations-2.16.0.jar;C:\Users\home\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.0\jackson-core-2.16.0.jar;C:\Users\home\.m2\repository\org\projectlombok\lombok\1.18.32\lombok-1.18.32.jar;C:\Users\home\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\home\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\home\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\home\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\home\.m2\repository\com\sikulix\sikulixapi\2.0.5\sikulixapi-2.0.5.jar;C:\Users\home\.m2\repository\org\python\jython-slim\2.7.2\jython-slim-2.7.2.jar;C:\Users\home\.m2\repository\org\antlr\antlr\3.5.2\antlr-3.5.2.jar;C:\Users\home\.m2\repository\org\antlr\ST4\4.0.8\ST4-4.0.8.jar;C:\Users\home\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\home\.m2\repository\org\antlr\antlr-runtime\3.5.2\antlr-runtime-3.5.2.jar;C:\Users\home\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.62\bcpkix-jdk15on-1.62.jar;C:\Users\home\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.62\bcprov-jdk15on-1.62.jar;C:\Users\home\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\home\.m2\repository\org\ow2\asm\asm-commons\7.1\asm-commons-7.1.jar;C:\Users\home\.m2\repository\org\ow2\asm\asm-tree\7.1\asm-tree-7.1.jar;C:\Users\home\.m2\repository\org\ow2\asm\asm-analysis\7.1\asm-analysis-7.1.jar;C:\Users\home\.m2\repository\org\ow2\asm\asm-util\7.1\asm-util-7.1.jar;C:\Users\home\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\home\.m2\repository\com\carrotsearch\java-sizeof\0.0.5\java-sizeof-0.0.5.jar;C:\Users\home\.m2\repository\com\github\jnr\jffi\1.2.20\jffi-1.2.20.jar;C:\Users\home\.m2\repository\com\github\jnr\jnr-netdb\1.1.6\jnr-netdb-1.1.6.jar;C:\Users\home\.m2\repository\com\github\jnr\jnr-ffi\2.1.10\jnr-ffi-2.1.10.jar;C:\Users\home\.m2\repository\com\github\jnr\jffi\1.2.19\jffi-1.2.19-native.jar;C:\Users\home\.m2\repository\com\github\jnr\jnr-a64asm\1.0.0\jnr-a64asm-1.0.0.jar;C:\Users\home\.m2\repository\com\github\jnr\jnr-x86asm\1.0.2\jnr-x86asm-1.0.2.jar;C:\Users\home\.m2\repository\com\github\jnr\jnr-posix\3.0.50\jnr-posix-3.0.50.jar;C:\Users\home\.m2\repository\com\github\jnr\jnr-constants\0.9.12\jnr-constants-0.9.12.jar;C:\Users\home\.m2\repository\jline\jline\2.14.5\jline-2.14.5.jar;C:\Users\home\.m2\repository\io\netty\netty-buffer\4.1.45.Final\netty-buffer-4.1.45.Final.jar;C:\Users\home\.m2\repository\io\netty\netty-codec\4.1.45.Final\netty-codec-4.1.45.Final.jar;C:\Users\home\.m2\repository\io\netty\netty-common\4.1.45.Final\netty-common-4.1.45.Final.jar;C:\Users\home\.m2\repository\io\netty\netty-handler\4.1.45.Final\netty-handler-4.1.45.Final.jar;C:\Users\home\.m2\repository\io\netty\netty-resolver\4.1.45.Final\netty-resolver-4.1.45.Final.jar;C:\Users\home\.m2\repository\io\netty\netty-transport\4.1.45.Final\netty-transport-4.1.45.Final.jar;C:\Users\home\.m2\repository\org\apache\ant\ant\1.9.7\ant-1.9.7.jar;C:\Users\home\.m2\repository\org\apache\ant\ant-launcher\1.9.7\ant-launcher-1.9.7.jar;C:\Users\home\.m2\repository\com\sikulix\sikulix2tigervnc\1.1.4\sikulix2tigervnc-1.1.4.jar;C:\Users\home\.m2\repository\org\openpnp\opencv\4.3.0-3\opencv-4.3.0-3.jar;C:\Users\home\.m2\repository\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;C:\Users\home\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\home\.m2\repository\net\oneandone\reflections8\reflections8\0.11.6\reflections8-0.11.6.jar;C:\Users\home\.m2\repository\net\sourceforge\tess4j\tess4j\4.5.4\tess4j-4.5.4.jar;C:\Users\home\.m2\repository\com\github\jai-imageio\jai-imageio-core\1.4.0\jai-imageio-core-1.4.0.jar;C:\Users\home\.m2\repository\org\ghost4j\ghost4j\1.0.1\ghost4j-1.0.1.jar;C:\Users\home\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\home\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\home\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\home\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\1.4\xmlgraphics-commons-1.4.jar;C:\Users\home\.m2\repository\com\lowagie\itext\2.1.7\itext-2.1.7.jar;C:\Users\home\.m2\repository\org\apache\pdfbox\pdfbox\2.0.21\pdfbox-2.0.21.jar;C:\Users\home\.m2\repository\org\apache\pdfbox\fontbox\2.0.21\fontbox-2.0.21.jar;C:\Users\home\.m2\repository\org\apache\pdfbox\pdfbox-tools\2.0.21\pdfbox-tools-2.0.21.jar;C:\Users\home\.m2\repository\org\apache\pdfbox\pdfbox-debugger\2.0.21\pdfbox-debugger-2.0.21.jar;C:\Users\home\.m2\repository\org\apache\pdfbox\jbig2-imageio\3.0.3\jbig2-imageio-3.0.3.jar;C:\Users\home\.m2\repository\net\sourceforge\lept4j\lept4j\1.13.2\lept4j-1.13.2.jar;C:\Users\home\.m2\repository\org\jboss\jboss-vfs\3.2.15.Final\jboss-vfs-3.2.15.Final.jar;C:\Users\home\.m2\repository\org\slf4j\slf4j-nop\1.7.28\slf4j-nop-1.7.28.jar;C:\Users\home\.m2\repository\net\sf\py4j\py4j\0.10.9.1\py4j-0.10.9.1.jar;C:\Users\home\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\home\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\home\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\home\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\home\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\home\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\home\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\home\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\home\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\home\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\home\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\home\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\home\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\home\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\home\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\home\.m2\repository\com\h2database\h2\2.4.240\h2-2.4.240.jar, kotlinx.coroutines.debug.enable.mutable.state.flows.stack.trace=true, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, idea.test.cyclic.buffer.size=1048576, user.variant=, java.vendor.url=https://java.oracle.com/, user.timezone=Europe/Kiev, java.vm.specification.version=23, os.name=Windows 11, sun.java.launcher=SUN_STANDARD, user.country=UA, sun.boot.library.path=C:\Program Files\Java\bin, sun.java.command=com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket50359 @w@C:\Users\home\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\home\AppData\Local\Temp\idea_testng.tmp, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\home, user.language=uk, sun.stderr.encoding=UTF-8, java.specification.vendor=Oracle Corporation, java.version.date=2024-10-15, java.home=C:\Program Files\Java, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, sun.stdout.encoding=UTF-8, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, intellij.debug.agent=true, hibernate.hbm2ddl.auto=update, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=23.0.1+11-39, user.name=home, stdout.encoding=UTF-8, path.separator=;, kotlinx.coroutines.debug.enable.creation.stack.trace=false, hibernate.connection.username=****, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:h2:mem:testdb, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, hibernate.connection.driver_class=org.h2.Driver, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\home\AppData\Local\Temp\, java.version=23.0.1, jboss.modules.system.pkgs=com.intellij.rt, user.dir=C:\Users\home\Desktop\at_pet\at_petproject, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, sun.os.patch.level=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@d504137, native.encoding=Cp1251, kotlinx.coroutines.debug.enable.flows.stack.trace=true, java.library.path=C:\Program Files\Java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\home\AppData\Local\Programs\Java\jdk-17\bin;C:\Users\home\AppData\Local\Programs\Java\jdk-17\bin;C:\Users\home\scoop\shims;C:\Users\home\AppData\Local\Microsoft\WindowsApps;C:\Users\home\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\home\Apache\Maven\apache-maven-3.9.11\bin;C:\Users\home\AppData\Roaming\npm;C:\Users\home\AppData\Local\Programs\Fiddler;C:\Users\home\AppData\Local\Android\Sdk\platform-tools;C:\Users\home\AppData\Local\Android\Sdk\emulator;., java.vendor=Oracle Corporation, stderr.encoding=UTF-8, java.vm.info=mixed mode, sharing, java.vm.version=23.0.1+11-39, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, java.class.version=67.0, debugger.agent.enable.coroutines=true}
+2025-12-07 22:49:20 DEBUG JaccIntegrator - Skipping JACC integration as it was not enabled
+2025-12-07 22:49:20 DEBUG SessionFactoryImpl - Instantiated session factory
+2025-12-07 22:49:20 DEBUG TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@661e279d] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@7d284f15]
+2025-12-07 22:49:20 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7bfa1eb5] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-12-07 22:49:20 DEBUG JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+2025-12-07 22:49:20 DEBUG JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+2025-12-07 22:49:20 DEBUG StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-07 22:49:20 DEBUG NamedQueryRepository - Checking 0 named HQL queries
+2025-12-07 22:49:20 DEBUG NamedQueryRepository - Checking 0 named SQL queries
+2025-12-07 22:49:20 DEBUG SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@502c2278
+2025-12-07 22:49:20 DEBUG SessionFactoryRegistry - Registering SessionFactory: a64d0275-b4da-469e-8cb6-ed9ae12b1b11 (<unnamed>)
+2025-12-07 22:49:20 DEBUG SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+2025-12-07 22:49:20 DEBUG StatisticsInitiator - Statistics initialized [enabled=false]
+2025-12-07 22:49:20 DEBUG TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2025-12-07 22:49:20 DEBUG TransactionImpl - begin
+2025-12-07 22:49:20 DEBUG JdbcResourceLocalTransactionCoordinatorImpl - JDBC transaction marked for rollback-only (exception provided for stack trace)
+java.lang.Exception: exception just for purpose of providing stack trace
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.markRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:314) ~[hibernate-core-5.3.20.Final.jar:5.3.20.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.markRollbackOnly(TransactionImpl.java:206) ~[hibernate-core-5.3.20.Final.jar:5.3.20.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.markForRollbackOnly(AbstractSharedSessionContract.java:381) ~[hibernate-core-5.3.20.Final.jar:5.3.20.Final]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:191) ~[hibernate-core-5.3.20.Final.jar:5.3.20.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:808) ~[hibernate-core-5.3.20.Final.jar:5.3.20.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:789) ~[hibernate-core-5.3.20.Final.jar:5.3.20.Final]
+	at at.db.UserRepository.save(UserRepository.java:15) ~[classes/:?]
+	at ui.BaseTest.saveUserToDatabase(BaseTest.java:38) ~[test-classes/:?]
+	at ui.UITests.testMultipleItemsFlow(UITests.java:50) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-12-07 22:49:20 DEBUG TransactionImpl - rolling back
+2025-12-07 22:49:21 INFO  UITests - Starting registration for Alice Test
+2025-12-07 22:49:22 INFO  BaseElement - Entered text 'Alice' into field: [[ChromeDriver: chrome on windows (b491f66cf4460280814d43bc51f72556)] -> id: FirstName]
+2025-12-07 22:49:23 INFO  BaseElement - Entered text 'Test' into field: [[ChromeDriver: chrome on windows (b491f66cf4460280814d43bc51f72556)] -> id: LastName]
+2025-12-07 22:49:23 INFO  BaseElement - Entered text 'user1765140561526@mail.com' into field: [!!!jdk.proxy2.$Proxy30@5d3b6585=>org.openqa.selenium.NoSuchWindowException:no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=142.0.7444.177)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b491f66cf4460280814d43bc51f72556, findElement {using=id, value=Email}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\home\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56692}, goog:processID: 22100, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56692/devtoo..., se:cdpVersion: 142.0.7444.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b491f66cf4460280814d43bc51f72556!!!]
+2025-12-07 22:52:53 INFO  UITests - Starting registration for Multi ItemUser
+2025-12-07 22:52:55 INFO  BaseElement - Entered text 'Multi' into field: [[ChromeDriver: chrome on windows (8e9636cb17c8059ace2cdfc5dccbb495)] -> id: FirstName]
+2025-12-07 22:52:55 INFO  BaseElement - Entered text 'ItemUser' into field: [[ChromeDriver: chrome on windows (8e9636cb17c8059ace2cdfc5dccbb495)] -> id: LastName]
+2025-12-07 22:52:55 INFO  BaseElement - Entered text 'user1765140773953@mail.com' into field: [[ChromeDriver: chrome on windows (8e9636cb17c8059ace2cdfc5dccbb495)] -> id: Email]
+2025-12-07 22:52:55 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (8e9636cb17c8059ace2cdfc5dccbb495)] -> id: Password]
+2025-12-07 22:52:55 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (8e9636cb17c8059ace2cdfc5dccbb495)] -> id: ConfirmPassword]
+2025-12-07 22:52:56 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.id: register-button'
+2025-12-07 22:53:06 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 22:53:06 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 22:53:06 INFO  UITests - Registration successful for email: user1765140773953@mail.com
+2025-12-07 22:53:06 DEBUG logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2025-12-07 22:53:06 DEBUG IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2025-12-07 22:53:06 DEBUG IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2025-12-07 22:53:06 DEBUG IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2025-12-07 22:53:06 INFO  Version - HHH000412: Hibernate Core {5.3.20.Final}
+2025-12-07 22:53:06 INFO  Environment - HHH000206: hibernate.properties not found
+2025-12-07 22:53:06 DEBUG IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2025-12-07 22:53:06 DEBUG IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2025-12-07 22:53:06 DEBUG IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2025-12-07 22:53:06 DEBUG ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2025-12-07 22:53:06 DEBUG RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2025-12-07 22:53:06 DEBUG RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2025-12-07 22:53:06 INFO  Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@3434a4f0
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@3434a4f0
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@3434a4f0
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@4f820f42
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@261de205
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@4525e9e8
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@b950f82
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@b950f82
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@b950f82
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@498c535d
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@498c535d
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@498c535d
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@43da0955
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@43da0955
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@43da0955
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@42ed89da
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@42ed89da
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@42ed89da
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@34d480b9
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@34d480b9
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@34d480b9
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@1df5c7e3
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@1df5c7e3
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@1df5c7e3
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@7c96c85
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@7c96c85
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@7c96c85
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@644d1b61
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@644d1b61
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@28e8888d
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@28e8888d
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@10f477e2
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@10f477e2
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@64518270
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@b5b9333
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@5aa62ee7
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@5aa62ee7
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@27b337bb
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@27b337bb
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@3b97907c
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@3b97907c
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@61f377d1
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@61f377d1
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@4dad8ec0
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@4dad8ec0
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@77b5148c
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@77b5148c
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@4b88ca8e
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@4b88ca8e
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@30a7653e
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@30a7653e
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@7302ff13
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@7302ff13
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@7c5df615
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@7c5df615
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@644a3add
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@644a3add
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@15d3793b
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@15d3793b
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@15d3793b
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@6637a365
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@415795f3
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@415795f3
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@415795f3
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@42679fc2
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@40717ed
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@40717ed
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@528c8c1
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@528c8c1
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@153cb763
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@153cb763
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@7a83ccd2
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@7a83ccd2
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@256a0d95
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@256a0d95
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@44f0ff2b
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@7675c171
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@7675c171
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@7675c171
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6ee88e21
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6ee88e21
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6ee88e21
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@217235f5
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@28393e82
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@22a260ff
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@22a260ff
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@22a260ff
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@b14b60a
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@b14b60a
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@b14b60a
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@1d6a8386
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@491cafec
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@446e7065
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@446e7065
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@480cbe2e
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@71a4f441
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@71a4f441
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@20cdb152
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@20cdb152
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@5c48b72c
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@7ce29a2d
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@781aff8b
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@42297bdf
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@42297bdf
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@632b305d
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@44598ef7
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@57fdb8a4
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@17222c11
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@2db15f70
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@25974207
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@1f15e689
+2025-12-07 22:53:06 DEBUG BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@195113de
+2025-12-07 22:53:06 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2025-12-07 22:53:06 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2025-12-07 22:53:06 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2025-12-07 22:53:06 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2025-12-07 22:53:06 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2025-12-07 22:53:06 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2025-12-07 22:53:06 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2025-12-07 22:53:06 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2025-12-07 22:53:06 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2025-12-07 22:53:06 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2025-12-07 22:53:06 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2025-12-07 22:53:06 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2025-12-07 22:53:06 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2025-12-07 22:53:06 DEBUG DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2025-12-07 22:53:06 WARN  pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-12-07 22:53:06 INFO  pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:testdb]
+2025-12-07 22:53:06 INFO  pooling - HHH10001001: Connection properties: {password=, user=sa}
+2025-12-07 22:53:06 INFO  pooling - HHH10001003: Autocommit mode: false
+2025-12-07 22:53:06 DEBUG DriverManagerConnectionProviderImpl - Initializing Connection pool with 1 Connections
+2025-12-07 22:53:06 INFO  DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-12-07 22:53:07 DEBUG JdbcEnvironmentInitiator - Database ->
+       name : H2
+    version : 2.4.240 (2025-09-22)
+      major : 2
+      minor : 4
+2025-12-07 22:53:07 DEBUG JdbcEnvironmentInitiator - Driver ->
+       name : H2 JDBC Driver
+    version : 2.4.240 (2025-09-22)
+      major : 2
+      minor : 4
+2025-12-07 22:53:07 DEBUG JdbcEnvironmentInitiator - JDBC version : 4.3
+2025-12-07 22:53:07 INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-12-07 22:53:07 DEBUG IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+2025-12-07 22:53:07 DEBUG Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2025-12-07 22:53:07 DEBUG TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@28e7bb31] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@6fe04f2a]
+2025-12-07 22:53:07 DEBUG SessionFactoryImpl - Building session factory
+2025-12-07 22:53:07 DEBUG Settings - SessionFactory name : null
+2025-12-07 22:53:07 DEBUG Settings - Automatic flush during beforeCompletion(): enabled
+2025-12-07 22:53:07 DEBUG Settings - Automatic session close at end of transaction: disabled
+2025-12-07 22:53:07 DEBUG Settings - Statistics: disabled
+2025-12-07 22:53:07 DEBUG Settings - Deleted entity synthetic identifier rollback: disabled
+2025-12-07 22:53:07 DEBUG Settings - Default entity-mode: pojo
+2025-12-07 22:53:07 DEBUG Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2025-12-07 22:53:07 DEBUG Settings - Allow initialization of lazy state outside session : disabled
+2025-12-07 22:53:07 DEBUG Settings - Using BatchFetchStyle : LEGACY
+2025-12-07 22:53:07 DEBUG Settings - Default batch fetch size: -1
+2025-12-07 22:53:07 DEBUG Settings - Maximum outer join fetch depth: null
+2025-12-07 22:53:07 DEBUG Settings - Default null ordering: NONE
+2025-12-07 22:53:07 DEBUG Settings - Order SQL updates by primary key: disabled
+2025-12-07 22:53:07 DEBUG Settings - Order SQL inserts for batching: disabled
+2025-12-07 22:53:07 DEBUG Settings - multi-tenancy strategy : NONE
+2025-12-07 22:53:07 DEBUG Settings - JTA Track by Thread: enabled
+2025-12-07 22:53:07 DEBUG Settings - Query language substitutions: {}
+2025-12-07 22:53:07 DEBUG Settings - Named query checking : enabled
+2025-12-07 22:53:07 DEBUG Settings - Second-level cache: disabled
+2025-12-07 22:53:07 DEBUG Settings - Second-level query cache: disabled
+2025-12-07 22:53:07 DEBUG Settings - Second-level query cache factory: null
+2025-12-07 22:53:07 DEBUG Settings - Second-level cache region prefix: null
+2025-12-07 22:53:07 DEBUG Settings - Optimize second-level cache for minimal puts: disabled
+2025-12-07 22:53:07 DEBUG Settings - Structured second-level cache entries: disabled
+2025-12-07 22:53:07 DEBUG Settings - Second-level cache direct-reference entries: disabled
+2025-12-07 22:53:07 DEBUG Settings - Automatic eviction of collection cache: disabled
+2025-12-07 22:53:07 DEBUG Settings - JDBC batch size: 15
+2025-12-07 22:53:07 DEBUG Settings - JDBC batch updates for versioned data: enabled
+2025-12-07 22:53:07 DEBUG Settings - Scrollable result sets: enabled
+2025-12-07 22:53:07 DEBUG Settings - Wrap result sets: disabled
+2025-12-07 22:53:07 DEBUG Settings - JDBC3 getGeneratedKeys(): enabled
+2025-12-07 22:53:07 DEBUG Settings - JDBC result set fetch size: null
+2025-12-07 22:53:07 DEBUG Settings - Connection release mode: AFTER_TRANSACTION
+2025-12-07 22:53:07 DEBUG Settings - Generate SQL with comments: disabled
+2025-12-07 22:53:07 DEBUG Settings - JPA compliance - query : 
+2025-12-07 22:53:07 DEBUG Settings - JPA compliance - closed-handling : 
+2025-12-07 22:53:07 DEBUG Settings - JPA compliance - lists : 
+2025-12-07 22:53:07 DEBUG Settings - JPA compliance - transactions : 
+2025-12-07 22:53:07 DEBUG SessionFactoryImpl - Session factory constructed with filter configurations : {}
+2025-12-07 22:53:07 DEBUG SessionFactoryImpl - Instantiating session factory with properties: {java.specification.version=23, webdriver.chrome.driver=C:\Users\home\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1251, hibernate.dialect=org.hibernate.dialect.H2Dialect, java.class.path=D:\IntelliJ IDEA Community Edition 2024.3.4\lib\idea_rt.jar;D:\IntelliJ IDEA Community Edition 2024.3.4\plugins\testng\lib\testng-rt.jar;C:\Users\home\Desktop\at_pet\at_petproject\target\test-classes;C:\Users\home\Desktop\at_pet\at_petproject\target\classes;C:\Users\home\.m2\repository\org\json\json\20231013\json-20231013.jar;C:\Users\home\.m2\repository\org\hibernate\hibernate-core\5.3.20.Final\hibernate-core-5.3.20.Final.jar;C:\Users\home\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;C:\Users\home\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\home\.m2\repository\org\javassist\javassist\3.23.2-GA\javassist-3.23.2-GA.jar;C:\Users\home\.m2\repository\net\bytebuddy\byte-buddy\1.9.11\byte-buddy-1.9.11.jar;C:\Users\home\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\home\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\home\.m2\repository\org\jboss\jandex\2.0.5.Final\jandex-2.0.5.Final.jar;C:\Users\home\.m2\repository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar;C:\Users\home\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\home\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\home\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.4.Final\hibernate-commons-annotations-5.0.4.Final.jar;C:\Users\home\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\home\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\home\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\home\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\home\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\home\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\home\.m2\repository\org\slf4j\slf4j-simple\1.7.5\slf4j-simple-1.7.5.jar;C:\Users\home\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\home\.m2\repository\mysql\mysql-connector-java\8.0.28\mysql-connector-java-8.0.28.jar;C:\Users\home\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\Users\home\.m2\repository\io\github\bonigarcia\webdrivermanager\6.1.0\webdrivermanager-6.1.0.jar;C:\Users\home\.m2\repository\com\google\code\gson\gson\2.13.0\gson-2.13.0.jar;C:\Users\home\.m2\repository\com\github\docker-java\docker-java\3.5.0\docker-java-3.5.0.jar;C:\Users\home\.m2\repository\com\github\docker-java\docker-java-core\3.5.0\docker-java-core-3.5.0.jar;C:\Users\home\.m2\repository\com\github\docker-java\docker-java-api\3.5.0\docker-java-api-3.5.0.jar;C:\Users\home\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\home\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.0\docker-java-transport-httpclient5-3.5.0.jar;C:\Users\home\.m2\repository\com\github\docker-java\docker-java-transport\3.5.0\docker-java-transport-3.5.0.jar;C:\Users\home\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\home\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\home\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\home\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\home\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\home\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\home\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\home\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\home\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\home\.m2\repository\net\java\dev\jna\jna-platform\5.13.0\jna-platform-5.13.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-java\4.34.0\selenium-java-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-api\4.34.0\selenium-api-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.34.0\selenium-chrome-driver-4.34.0.jar;C:\Users\home\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.34.0\selenium-chromium-driver-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-json\4.34.0\selenium-json-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.34.0\selenium-manager-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.34.0\selenium-devtools-v136-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.34.0\selenium-devtools-v137-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.34.0\selenium-devtools-v138-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.34.0\selenium-edge-driver-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.34.0\selenium-firefox-driver-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-http\4.34.0\selenium-http-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.34.0\selenium-ie-driver-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.34.0\selenium-remote-driver-4.34.0.jar;C:\Users\home\.m2\repository\io\opentelemetry\opentelemetry-api\1.51.0\opentelemetry-api-1.51.0.jar;C:\Users\home\.m2\repository\io\opentelemetry\opentelemetry-context\1.51.0\opentelemetry-context-1.51.0.jar;C:\Users\home\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.51.0\opentelemetry-exporter-logging-1.51.0.jar;C:\Users\home\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.51.0\opentelemetry-sdk-common-1.51.0.jar;C:\Users\home\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.51.0\opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar;C:\Users\home\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.51.0\opentelemetry-sdk-extension-autoconfigure-1.51.0.jar;C:\Users\home\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.51.0\opentelemetry-sdk-trace-1.51.0.jar;C:\Users\home\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.51.0\opentelemetry-sdk-1.51.0.jar;C:\Users\home\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.51.0\opentelemetry-sdk-metrics-1.51.0.jar;C:\Users\home\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.51.0\opentelemetry-sdk-logs-1.51.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-os\4.34.0\selenium-os-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.34.0\selenium-safari-driver-4.34.0.jar;C:\Users\home\.m2\repository\org\seleniumhq\selenium\selenium-support\4.34.0\selenium-support-4.34.0.jar;C:\Users\home\.m2\repository\org\aspectj\aspectjweaver\1.9.22\aspectjweaver-1.9.22.jar;C:\Users\home\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\home\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\home\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\home\.m2\repository\io\appium\java-client\9.5.0\java-client-9.5.0.jar;C:\Users\home\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\home\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\home\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\home\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\home\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\home\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\home\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\home\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\home\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.0\jackson-databind-2.16.0.jar;C:\Users\home\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.0\jackson-annotations-2.16.0.jar;C:\Users\home\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.0\jackson-core-2.16.0.jar;C:\Users\home\.m2\repository\org\projectlombok\lombok\1.18.32\lombok-1.18.32.jar;C:\Users\home\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\home\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\home\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\home\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\home\.m2\repository\com\sikulix\sikulixapi\2.0.5\sikulixapi-2.0.5.jar;C:\Users\home\.m2\repository\org\python\jython-slim\2.7.2\jython-slim-2.7.2.jar;C:\Users\home\.m2\repository\org\antlr\antlr\3.5.2\antlr-3.5.2.jar;C:\Users\home\.m2\repository\org\antlr\ST4\4.0.8\ST4-4.0.8.jar;C:\Users\home\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\home\.m2\repository\org\antlr\antlr-runtime\3.5.2\antlr-runtime-3.5.2.jar;C:\Users\home\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.62\bcpkix-jdk15on-1.62.jar;C:\Users\home\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.62\bcprov-jdk15on-1.62.jar;C:\Users\home\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\home\.m2\repository\org\ow2\asm\asm-commons\7.1\asm-commons-7.1.jar;C:\Users\home\.m2\repository\org\ow2\asm\asm-tree\7.1\asm-tree-7.1.jar;C:\Users\home\.m2\repository\org\ow2\asm\asm-analysis\7.1\asm-analysis-7.1.jar;C:\Users\home\.m2\repository\org\ow2\asm\asm-util\7.1\asm-util-7.1.jar;C:\Users\home\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\home\.m2\repository\com\carrotsearch\java-sizeof\0.0.5\java-sizeof-0.0.5.jar;C:\Users\home\.m2\repository\com\github\jnr\jffi\1.2.20\jffi-1.2.20.jar;C:\Users\home\.m2\repository\com\github\jnr\jnr-netdb\1.1.6\jnr-netdb-1.1.6.jar;C:\Users\home\.m2\repository\com\github\jnr\jnr-ffi\2.1.10\jnr-ffi-2.1.10.jar;C:\Users\home\.m2\repository\com\github\jnr\jffi\1.2.19\jffi-1.2.19-native.jar;C:\Users\home\.m2\repository\com\github\jnr\jnr-a64asm\1.0.0\jnr-a64asm-1.0.0.jar;C:\Users\home\.m2\repository\com\github\jnr\jnr-x86asm\1.0.2\jnr-x86asm-1.0.2.jar;C:\Users\home\.m2\repository\com\github\jnr\jnr-posix\3.0.50\jnr-posix-3.0.50.jar;C:\Users\home\.m2\repository\com\github\jnr\jnr-constants\0.9.12\jnr-constants-0.9.12.jar;C:\Users\home\.m2\repository\jline\jline\2.14.5\jline-2.14.5.jar;C:\Users\home\.m2\repository\io\netty\netty-buffer\4.1.45.Final\netty-buffer-4.1.45.Final.jar;C:\Users\home\.m2\repository\io\netty\netty-codec\4.1.45.Final\netty-codec-4.1.45.Final.jar;C:\Users\home\.m2\repository\io\netty\netty-common\4.1.45.Final\netty-common-4.1.45.Final.jar;C:\Users\home\.m2\repository\io\netty\netty-handler\4.1.45.Final\netty-handler-4.1.45.Final.jar;C:\Users\home\.m2\repository\io\netty\netty-resolver\4.1.45.Final\netty-resolver-4.1.45.Final.jar;C:\Users\home\.m2\repository\io\netty\netty-transport\4.1.45.Final\netty-transport-4.1.45.Final.jar;C:\Users\home\.m2\repository\org\apache\ant\ant\1.9.7\ant-1.9.7.jar;C:\Users\home\.m2\repository\org\apache\ant\ant-launcher\1.9.7\ant-launcher-1.9.7.jar;C:\Users\home\.m2\repository\com\sikulix\sikulix2tigervnc\1.1.4\sikulix2tigervnc-1.1.4.jar;C:\Users\home\.m2\repository\org\openpnp\opencv\4.3.0-3\opencv-4.3.0-3.jar;C:\Users\home\.m2\repository\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;C:\Users\home\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\home\.m2\repository\net\oneandone\reflections8\reflections8\0.11.6\reflections8-0.11.6.jar;C:\Users\home\.m2\repository\net\sourceforge\tess4j\tess4j\4.5.4\tess4j-4.5.4.jar;C:\Users\home\.m2\repository\com\github\jai-imageio\jai-imageio-core\1.4.0\jai-imageio-core-1.4.0.jar;C:\Users\home\.m2\repository\org\ghost4j\ghost4j\1.0.1\ghost4j-1.0.1.jar;C:\Users\home\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\home\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\home\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\home\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\1.4\xmlgraphics-commons-1.4.jar;C:\Users\home\.m2\repository\com\lowagie\itext\2.1.7\itext-2.1.7.jar;C:\Users\home\.m2\repository\org\apache\pdfbox\pdfbox\2.0.21\pdfbox-2.0.21.jar;C:\Users\home\.m2\repository\org\apache\pdfbox\fontbox\2.0.21\fontbox-2.0.21.jar;C:\Users\home\.m2\repository\org\apache\pdfbox\pdfbox-tools\2.0.21\pdfbox-tools-2.0.21.jar;C:\Users\home\.m2\repository\org\apache\pdfbox\pdfbox-debugger\2.0.21\pdfbox-debugger-2.0.21.jar;C:\Users\home\.m2\repository\org\apache\pdfbox\jbig2-imageio\3.0.3\jbig2-imageio-3.0.3.jar;C:\Users\home\.m2\repository\net\sourceforge\lept4j\lept4j\1.13.2\lept4j-1.13.2.jar;C:\Users\home\.m2\repository\org\jboss\jboss-vfs\3.2.15.Final\jboss-vfs-3.2.15.Final.jar;C:\Users\home\.m2\repository\org\slf4j\slf4j-nop\1.7.28\slf4j-nop-1.7.28.jar;C:\Users\home\.m2\repository\net\sf\py4j\py4j\0.10.9.1\py4j-0.10.9.1.jar;C:\Users\home\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\home\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\home\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\home\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\home\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\home\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\home\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\home\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\home\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\home\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\home\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\home\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\home\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\home\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\home\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\home\.m2\repository\com\h2database\h2\2.4.240\h2-2.4.240.jar, kotlinx.coroutines.debug.enable.mutable.state.flows.stack.trace=true, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, idea.test.cyclic.buffer.size=1048576, user.variant=, java.vendor.url=https://java.oracle.com/, user.timezone=Europe/Kiev, java.vm.specification.version=23, os.name=Windows 11, sun.java.launcher=SUN_STANDARD, user.country=UA, sun.boot.library.path=C:\Program Files\Java\bin, sun.java.command=com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket61387 @w@C:\Users\home\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\home\AppData\Local\Temp\idea_testng.tmp, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\home, user.language=uk, sun.stderr.encoding=UTF-8, java.specification.vendor=Oracle Corporation, java.version.date=2024-10-15, java.home=C:\Program Files\Java, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, sun.stdout.encoding=UTF-8, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, intellij.debug.agent=true, hibernate.hbm2ddl.auto=update, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=23.0.1+11-39, user.name=home, stdout.encoding=UTF-8, path.separator=;, kotlinx.coroutines.debug.enable.creation.stack.trace=false, hibernate.connection.username=****, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:h2:mem:testdb, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, hibernate.connection.driver_class=org.h2.Driver, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\home\AppData\Local\Temp\, java.version=23.0.1, jboss.modules.system.pkgs=com.intellij.rt, user.dir=C:\Users\home\Desktop\at_pet\at_petproject, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, sun.os.patch.level=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@6ef1c3f7, native.encoding=Cp1251, kotlinx.coroutines.debug.enable.flows.stack.trace=true, java.library.path=C:\Program Files\Java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\home\AppData\Local\Programs\Java\jdk-17\bin;C:\Users\home\AppData\Local\Programs\Java\jdk-17\bin;C:\Users\home\scoop\shims;C:\Users\home\AppData\Local\Microsoft\WindowsApps;C:\Users\home\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\home\Apache\Maven\apache-maven-3.9.11\bin;C:\Users\home\AppData\Roaming\npm;C:\Users\home\AppData\Local\Programs\Fiddler;C:\Users\home\AppData\Local\Android\Sdk\platform-tools;C:\Users\home\AppData\Local\Android\Sdk\emulator;., java.vendor=Oracle Corporation, stderr.encoding=UTF-8, java.vm.info=mixed mode, sharing, java.vm.version=23.0.1+11-39, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, java.class.version=67.0, debugger.agent.enable.coroutines=true}
+2025-12-07 22:53:07 DEBUG JaccIntegrator - Skipping JACC integration as it was not enabled
+2025-12-07 22:53:07 DEBUG SessionFactoryImpl - Instantiated session factory
+2025-12-07 22:53:07 DEBUG TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@28e7bb31] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@5d717f19]
+2025-12-07 22:53:07 INFO  access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@63a7781] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-12-07 22:53:07 DEBUG JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+2025-12-07 22:53:07 DEBUG JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+2025-12-07 22:53:07 DEBUG StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-07 22:53:07 DEBUG NamedQueryRepository - Checking 0 named HQL queries
+2025-12-07 22:53:07 DEBUG NamedQueryRepository - Checking 0 named SQL queries
+2025-12-07 22:53:07 DEBUG SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@595814a1
+2025-12-07 22:53:07 DEBUG SessionFactoryRegistry - Registering SessionFactory: 0f7a5080-4a1c-49d1-8891-3738faab489e (<unnamed>)
+2025-12-07 22:53:07 DEBUG SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+2025-12-07 22:53:07 DEBUG StatisticsInitiator - Statistics initialized [enabled=false]
+2025-12-07 22:53:07 DEBUG TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2025-12-07 22:53:07 DEBUG TransactionImpl - begin
+2025-12-07 22:53:07 DEBUG JdbcResourceLocalTransactionCoordinatorImpl - JDBC transaction marked for rollback-only (exception provided for stack trace)
+java.lang.Exception: exception just for purpose of providing stack trace
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.markRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:314) ~[hibernate-core-5.3.20.Final.jar:5.3.20.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.markRollbackOnly(TransactionImpl.java:206) ~[hibernate-core-5.3.20.Final.jar:5.3.20.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.markForRollbackOnly(AbstractSharedSessionContract.java:381) ~[hibernate-core-5.3.20.Final.jar:5.3.20.Final]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:191) ~[hibernate-core-5.3.20.Final.jar:5.3.20.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:808) ~[hibernate-core-5.3.20.Final.jar:5.3.20.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:789) ~[hibernate-core-5.3.20.Final.jar:5.3.20.Final]
+	at at.db.UserRepository.save(UserRepository.java:15) ~[classes/:?]
+	at ui.BaseTest.saveUserToDatabase(BaseTest.java:38) ~[test-classes/:?]
+	at ui.UITests.testMultipleItemsFlow(UITests.java:50) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-12-07 22:53:07 DEBUG TransactionImpl - rolling back
+2025-12-07 22:53:08 INFO  UITests - Starting registration for Alice Test
+2025-12-07 22:57:42 INFO  AddProductToCartTest - Starting registration for email: user1765141062941@mail.com
+2025-12-07 22:57:44 INFO  BaseElement - Entered text 'Test' into field: [[ChromeDriver: chrome on windows (8437d9af4a731bb3ea48386a47a0f7e6)] -> id: FirstName]
+2025-12-07 22:57:44 INFO  BaseElement - Entered text 'User' into field: [[ChromeDriver: chrome on windows (8437d9af4a731bb3ea48386a47a0f7e6)] -> id: LastName]
+2025-12-07 22:57:44 INFO  BaseElement - Entered text 'user1765141062941@mail.com' into field: [[ChromeDriver: chrome on windows (8437d9af4a731bb3ea48386a47a0f7e6)] -> id: Email]
+2025-12-07 22:57:44 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (8437d9af4a731bb3ea48386a47a0f7e6)] -> id: Password]
+2025-12-07 22:57:44 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (8437d9af4a731bb3ea48386a47a0f7e6)] -> id: ConfirmPassword]
+2025-12-07 22:57:45 INFO  BaseElement - Clicked on button: Proxy element for: DefaultElementLocator 'By.id: register-button'
+2025-12-07 22:57:55 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 22:57:55 INFO  BaseElement - Text read from label: Your registration completed
+2025-12-07 22:57:55 INFO  AddProductToCartTest - Registration successful for email: user1765141062941@mail.com
+2025-12-07 22:57:55 INFO  AddProductToCartTest - Logging in with email: user1765141062941@mail.com
+2025-12-07 22:57:55 INFO  BaseElement - Entered text 'user1765141062941@mail.com' into field: [[ChromeDriver: chrome on windows (8437d9af4a731bb3ea48386a47a0f7e6)] -> id: Email]
+2025-12-07 22:57:55 INFO  BaseElement - Entered text '123456' into field: [[ChromeDriver: chrome on windows (8437d9af4a731bb3ea48386a47a0f7e6)] -> id: Password]
+2025-12-07 22:57:55 INFO  BaseElement - Clicked on button: [[ChromeDriver: chrome on windows (8437d9af4a731bb3ea48386a47a0f7e6)] -> css selector: input.button-1.login-button]
+2025-12-07 22:57:58 INFO  BaseElement - Text read from label: Log out
+2025-12-07 22:57:58 INFO  AddProductToCartTest - Login successful for email: user1765141062941@mail.com
+2025-12-07 22:57:58 INFO  AddProductToCartTest - Adding product '14.1-inch Laptop' to cart
+2025-12-07 22:57:58 INFO  BaseElement - Scrolled to element: [[[[ChromeDriver: chrome on windows (8437d9af4a731bb3ea48386a47a0f7e6)] -> css selector: .product-item]] -> css selector: input[value='Add to cart']]
+2025-12-07 22:57:58 INFO  BaseElement - Clicked on button: [[[[ChromeDriver: chrome on windows (8437d9af4a731bb3ea48386a47a0f7e6)] -> css selector: .product-item]] -> css selector: input[value='Add to cart']]
+2025-12-07 22:57:59 INFO  BaseElement - Element is visible: [[ChromeDriver: chrome on windows (8437d9af4a731bb3ea48386a47a0f7e6)] -> id: bar-notification]
+2025-12-07 22:57:59 INFO  BaseElement - Text read from label:   The product has been added to your shopping cart
+2025-12-07 22:57:59 INFO  AddProductToCartTest - Product '14.1-inch Laptop' added to cart successfully

@@ -28,7 +28,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Maven>
-      <targets>clean test -Dtest=ui.Task11Test</targets>
+      <targets>clean test -Dtest=ui.UITests</targets>
       <mavenName>Maven</mavenName>
       <pom>at_petproject/pom.xml</pom>
       <usePrivateRepository>false</usePrivateRepository>
