@@ -50,12 +50,10 @@ AQA
 │   └── test  
 │       └── java  
 │           ├── api  
-│           │   ├── RegisterLoginAddMultipleProductsTest.java  
-│           │   ├── RegisterLoginAddPremiumProductTest.java  
-│           │   └── RegisterLoginAddSingleProductTest.java  
+│           │   ├── APITests  # These tests cover **user registration, login, product selection, adding products to cart, and verifying that the products are successfully added.** (one/multiple/premium products)
 │           └── ui  
 │               ├── AddProductToCartTest.java  # Automates the full user flow: registration, login, adding a product to the shopping cart, and verifying it was added, with Allure reporting.
-│               └── UITests.java # These tests cover the full user flow on the demo webshop: **user registration, login, product selection, adding products to cart, and verifying that the products are successfully added.**
+│               └── UITests.java # These tests cover the full user flow on the demo webshop: **user registration, login, product selection, adding products to cart, and verifying that the products are successfully added.** (one/multiple/premium products)
 |           └── resources
 │               ├── testng.xml  
 ├── target  
@@ -79,6 +77,12 @@ AQA
 
 ### Performance Testing
 - JMeter integration with at least 3 ThreadGroups simulating different loads.
+All performance tests are packed in a single JMeter .jmx file.
+Supports multiple load scenarios via ThreadGroups.
+All performance tests are in src/performance/PerformanceTest.jmx.
+To run:
+```jmeter -n -t src/performance/PerformanceTest.jmx -l results.jtl```
+Output results will be saved to results.jtl. You can open them in JMeter GUI or export as CSV/HTML for analysis.
 
 ### Logging & Reporting
 - Allure reports with:
