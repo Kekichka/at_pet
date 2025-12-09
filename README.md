@@ -61,27 +61,48 @@ AQA
 │   ├── maven-status  
 │   └── surefire-reports  
 
+### Test Scenarios
 
-### Web UI Testing
-- Multi-browser support (**Chrome** & **Firefox**) using DriverPool.
-- Layered architecture: TC -> BO -> PO.
-- Uses PageFactory and WebElement wrappers.
-- Screenshots automatically captured on test failure.
-- At least 3 end-to-end UI test scenarios.
+#### UI Tests
 
-### API Testing
-- Tests follow TC -> BO pattern.
-- API responses deserialized into POJOs for easy assertions.
-- At least 3 API test scenarios with object wrappers.
-- JSON responses are attached in Allure reports.
+**1. Add Product to Cart Flow** (`AddProductToCartTest.java`)
+
+  1. Generate a unique email for registration.
+  2. Register.
+  3. Verify that registration was successful.
+  4. Open the login page and log in with the newly registered email.
+  5. Verify.
+  6. Navigate to the shopping page.
+  7. Add a specific product to the cart.
+  8. Verify that the product is added successfully.
+
+**2. Multi-Scenario Product Flow** (`UITests.java`)
+  1. Use a DataProvider to supply multiple user names and products.
+  2. Generate a unique email for each user.
+  3. Register each user and verify registration.
+  4. Log in with the registered email and verify login.
+  5. Navigate to the shopping page.
+  6. Add the specified product/premium prdoct/multi product to the cart.
+  7. Verify that the product is successfully added.
+  
+#### API Tests
+
+**1. Add Products Flow via API** (`APITests.java`)
+
+  1. Use a DataProvider to supply multiple users, product IDs, and quantities.
+  2. Generate a unique email for each user.
+  3. Send a `POST /register` request with user details.
+  4. Validate the registration response.
+  5. Send a `POST /login` request using the registered email.
+  6. Validate the login response (token, status, user info).
+  7. Send a `POST /addproducttocart` request with product ID and quantity.
+  8. Validate the cart response (status, product added, quantity).
 
 ### Performance Testing
-- JMeter integration with at least 3 ThreadGroups simulating different loads.
-All performance tests are packed in a single JMeter .jmx file.
-Supports multiple load scenarios via ThreadGroups.
-All performance tests are in src/performance/PerformanceTest.jmx.
+- JMeter integration with 3 ThreadGroups simulating different loads.
+All performance tests are in src/performance/Testing_plan_WebShop.jmx.
 To run:
-```jmeter -n -t src/performance/PerformanceTest.jmx -l results.jtl```
+```jmeter -n -t src/performance/Testing_plan_WebShop.jmx -l results.jtl```
 Output results will be saved to results.jtl. You can open them in JMeter GUI or export as CSV/HTML for analysis.
 
 ### Logging & Reporting
@@ -94,4 +115,3 @@ Output results will be saved to results.jtl. You can open them in JMeter GUI or 
 - Jenkins jobs for:
   - Web UI testing
   - API testing
-  - Performance testing
