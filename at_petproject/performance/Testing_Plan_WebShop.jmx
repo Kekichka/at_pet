@@ -2,26 +2,41 @@
 <jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.3">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan">
-      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
-        <collectionProp name="Arguments.arguments"/>
-      </elementProp>
-    </TestPlan>
-    <hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Typical Browsing">
-        <intProp name="ThreadGroup.num_threads">7</intProp>
-        <intProp name="ThreadGroup.ramp_time">60</intProp>
-        <longProp name="ThreadGroup.duration">1800</longProp>
-        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
-        <boolProp name="ThreadGroup.scheduler">true</boolProp>
-        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
-        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
-          <intProp name="LoopController.loops">-1</intProp>
-          <boolProp name="LoopController.continue_forever">false</boolProp>
+        <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="Global Variables">
+            <collectionProp name="Arguments.arguments">
+                <elementProp name="RAMP_TIME" elementType="Argument">
+                    <stringProp name="Argument.name">RAMP_TIME</stringProp>
+                    <stringProp name="Argument.value">60</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+                <elementProp name="DURATION" elementType="Argument">
+                    <stringProp name="Argument.name">DURATION</stringProp>
+                    <stringProp name="Argument.value">1800</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+            </collectionProp>
         </elementProp>
 
-      </ThreadGroup>
-      <hashTree>
+        <boolProp name="TestPlan.functional_mode">false</boolProp>
+        <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+    </TestPlan>
+    <hashTree>
+     <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Typical Browsing" enabled="true">
+         <elementProp name="ThreadGroup.user_defined_variables" elementType="Arguments">
+             <collectionProp name="Arguments.arguments">
+                 <elementProp name="NUM_THREADS" elementType="Argument">
+                     <stringProp name="Argument.name">NUM_THREADS</stringProp>
+                     <stringProp name="Argument.value">7</stringProp>
+                     <stringProp name="Argument.metadata">=</stringProp>
+                 </elementProp>
+             </collectionProp>
+         </elementProp>
+         <intProp name="ThreadGroup.num_threads">${NUM_THREADS}</intProp>
+         <intProp name="ThreadGroup.ramp_time">${RAMP_TIME}</intProp>
+         <longProp name="ThreadGroup.duration">${DURATION}</longProp>
+     </ThreadGroup>
 
+      <hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET home" enabled="true">
           <stringProp name="HTTPSampler.domain">demowebshop.tricentis.com</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -34,7 +49,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET COMPS">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET COMPS" enabled="true">
           <stringProp name="HTTPSampler.domain">demowebshop.tricentis.com</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.path">/computers</stringProp>
@@ -47,7 +62,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET ACCESSORY">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET ACCESSORY" enabled="true">
           <stringProp name="HTTPSampler.domain">demowebshop.tricentis.com</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.path">/jewelry</stringProp>
@@ -98,20 +113,22 @@
         <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="BUY LAPTOP">
-        <intProp name="ThreadGroup.num_threads">2</intProp>
-        <intProp name="ThreadGroup.ramp_time">60</intProp>
-        <longProp name="ThreadGroup.duration">1800</longProp>
-        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
-        <boolProp name="ThreadGroup.scheduler">true</boolProp>
-        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
-        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
-          <intProp name="LoopController.loops">-1</intProp>
-          <boolProp name="LoopController.continue_forever">false</boolProp>
-        </elementProp>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="BUY LAPTOP" enabled="true">
+         <elementProp name="ThreadGroup.user_defined_variables" elementType="Arguments">
+                    <collectionProp name="Arguments.arguments">
+                        <elementProp name="NUM_THREADS" elementType="Argument">
+                            <stringProp name="Argument.name">NUM_THREADS</stringProp>
+                            <stringProp name="Argument.value">7</stringProp>
+                            <stringProp name="Argument.metadata">=</stringProp>
+                        </elementProp>
+                    </collectionProp>
+                </elementProp>
+                <intProp name="ThreadGroup.num_threads">${NUM_THREADS}</intProp>
+                <intProp name="ThreadGroup.ramp_time">${RAMP_TIME}</intProp>
+                <longProp name="ThreadGroup.duration">${DURATION}</longProp>
       </ThreadGroup>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET home">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET home" enabled="true">
           <stringProp name="HTTPSampler.domain">demowebshop.tricentis.com</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
@@ -123,7 +140,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET COMPS">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET COMPS" enabled="true">
           <stringProp name="HTTPSampler.domain">demowebshop.tricentis.com</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.path">/computers</stringProp>
@@ -136,7 +153,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET NOTEBOOKS">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET NOTEBOOKS" enabled="true">
           <stringProp name="HTTPSampler.domain">demowebshop.tricentis.com</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.path">/notebooks</stringProp>
@@ -149,7 +166,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET LAPTOP">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET LAPTOP" enabled="true">
           <stringProp name="HTTPSampler.domain">demowebshop.tricentis.com</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.path">/141-inch-laptop</stringProp>
@@ -162,7 +179,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="ADD TO CART">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="ADD TO CART" enabled="true">
           <stringProp name="HTTPSampler.domain">demowebshop.tricentis.com</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.path">/addproducttocart/details/31/1</stringProp>
@@ -177,18 +194,30 @@
         <hashTree/>
       </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="REGISTER + LOGIN">
-        <intProp name="ThreadGroup.num_threads">1</intProp>
-        <intProp name="ThreadGroup.ramp_time">60</intProp>
-        <longProp name="ThreadGroup.duration">1800</longProp>
-        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
-        <boolProp name="ThreadGroup.scheduler">true</boolProp>
-        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
-        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
-          <intProp name="LoopController.loops">-1</intProp>
-          <boolProp name="LoopController.continue_forever">false</boolProp>
-        </elementProp>
+         <elementProp name="ThreadGroup.user_defined_variables" elementType="Arguments">
+                    <collectionProp name="Arguments.arguments">
+                        <elementProp name="NUM_THREADS" elementType="Argument">
+                            <stringProp name="Argument.name">NUM_THREADS</stringProp>
+                            <stringProp name="Argument.value">7</stringProp>
+                            <stringProp name="Argument.metadata">=</stringProp>
+                        </elementProp>
+                    </collectionProp>
+                </elementProp>
+                <intProp name="ThreadGroup.num_threads">${NUM_THREADS}</intProp>
+                <intProp name="ThreadGroup.ramp_time">${RAMP_TIME}</intProp>
+                <longProp name="ThreadGroup.duration">${DURATION}</longProp>
       </ThreadGroup>
       <hashTree>
+        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+          <collectionProp name="Arguments.arguments">
+            <elementProp name="email" elementType="Argument">
+              <stringProp name="Argument.name">email</stringProp>
+              <stringProp name="Argument.value">user_${__UUID()}@mail.com</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+          </collectionProp>
+        </Arguments>
+        <hashTree/>
         <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="HTTP Request Defaults" enabled="true">
           <stringProp name="HTTPSampler.domain">demowebshop.tricentis.com</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -204,10 +233,10 @@
           <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
         </CookieManager>
         <hashTree/>
-        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config">
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding">UTF-8</stringProp>
-          <stringProp name="filename">../src/main/resources/user.csv </stringProp>
+          <stringProp name="filename">../src/main/resources/user.csv</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
           <boolProp name="quotedData">true</boolProp>
           <boolProp name="recycle">true</boolProp>
@@ -227,7 +256,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="REGISTER" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="REGISTER">
           <stringProp name="HTTPSampler.path">/register</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
@@ -281,7 +310,19 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET LOGIN PAGE">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET home">
+          <stringProp name="HTTPSampler.domain">demowebshop.tricentis.com</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+            <collectionProp name="Arguments.arguments"/>
+          </elementProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET LOGIN PAGE" enabled="true">
           <stringProp name="HTTPSampler.path">/login</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>

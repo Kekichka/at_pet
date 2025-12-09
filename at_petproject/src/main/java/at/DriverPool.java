@@ -11,20 +11,20 @@ import java.time.Duration;
 
 public class DriverPool {
 
-    private static WebDriver driver;
+    private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
     public static WebDriver getDriver() {
-        if (driver == null) {
+        if (driver.get() == null) {
             String browser = ConfigReader.getProp("browserType");
 
-            switch (browser) {
-                case "Chrome":
+            switch (browser.toLowerCase()) {
+                case "chrome":
                     ChromeOptions chromeOptions = new ChromeOptions();
                     if (System.getProperty("headless", "false").equalsIgnoreCase("true")) {
                         chromeOptions.addArguments("--headless=new");
                     }
                     WebDriverManager.chromedriver().setup();
-                    driver = new ChromeDriver(chromeOptions);
+                    driver.set(new ChromeDriver(chromeOptions));
                     break;
 
                 case "firefox":
@@ -33,23 +33,23 @@ public class DriverPool {
                         firefoxOptions.addArguments("--headless");
                     }
                     WebDriverManager.firefoxdriver().setup();
-                    driver = new FirefoxDriver(firefoxOptions);
+                    driver.set(new FirefoxDriver(firefoxOptions));
                     break;
 
                 default:
                     throw new RuntimeException("Unsupported browser: " + browser);
             }
 
-            driver.manage().window().maximize();
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+            driver.get().manage().window().maximize();
+            driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         }
-        return driver;
+        return driver.get();
     }
 
     public static void quitDriver() {
-        if (driver != null) {
-            driver.quit();
-            driver = null;
+        if (driver.get() != null) {
+            driver.get().quit();
+            driver.remove();
         }
     }
 }

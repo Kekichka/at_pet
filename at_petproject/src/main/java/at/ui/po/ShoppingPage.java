@@ -1,11 +1,11 @@
 package at.ui.po;
 
-import at.ui.wrappers.Button;
-import at.ui.wrappers.Label;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -19,8 +19,8 @@ public class ShoppingPage {
 
     public ShoppingPage(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(driver, this);
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        PageFactory.initElements(new AjaxElementLocatorFactory(driver, 30), this);
     }
 
     public void open() {
@@ -38,22 +38,21 @@ public class ShoppingPage {
     private void addNormalProduct(String productName) {
         List<WebElement> products = driver.findElements(By.cssSelector(".product-item"));
 
-        WebElement targetProduct = wait.until(driver -> {
-            for (WebElement product : products) {
-                String name = product.findElement(By.cssSelector("h2.product-title a")).getText();
-                if (name.equalsIgnoreCase(productName)) {
-                    return product;
-                }
+        WebElement targetProduct = wait.until(d -> {
+            for (WebElement p : products) {
+                String name = p.findElement(By.cssSelector("h2.product-title a")).getText();
+                if (name.equalsIgnoreCase(productName)) return p;
             }
             return null;
         });
 
-        Button addButton = new Button(driver, targetProduct.findElement(By.cssSelector("input[value='Add to cart']")));
-        addButton.scrollToView();
+        WebElement addButton = targetProduct.findElement(By.cssSelector("input[value='Add to cart']"));
+
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", addButton);
+
         addButton.click();
 
-        Label notification = new Label(driver, driver.findElement(By.id("bar-notification")));
-        notification.waitUntilVisible();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".bar-notification.success")));
     }
 
     private void addBuildYourOwnProduct(String productName) {
@@ -65,14 +64,16 @@ public class ShoppingPage {
         WebElement addButton = wait.until(ExpectedConditions.elementToBeClickable(
                 By.cssSelector("input[id^='add-to-cart-button']")
         ));
-        ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", addButton);
+
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", addButton);
+
         addButton.click();
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".bar-notification.success")));
     }
 
     public boolean isProductAdded() {
-        Label notification = new Label(driver, driver.findElement(By.id("bar-notification")));
+        WebElement notification = driver.findElement(By.id("bar-notification"));
         return notification.getText().contains("The product has been added to your");
     }
 }

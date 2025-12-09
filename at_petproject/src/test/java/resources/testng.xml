@@ -1,10 +1,23 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="all test SUITE" verbose="5" data-provider-thread-count="6">
-    <test name="task 8 Test" thread-count="10" parallel="methods">
-        <parameter name="CityParameter" value="XmlCity"/>
-        <parameter name="StateParameter" value="XmlState"/>
+<suite name="PetProject Full Test Suite" verbose="5" data-provider-thread-count="6">
+
+    <listeners>
+        <listener class-name="at.listener.CustomAllureListener"/>
+    </listeners>
+
+
+    <test name="UI Tests - Add Products" parallel="methods" thread-count="6">
+        <parameter name="browser" value="chrome"/>
         <packages>
-            <package name="task8.*"/>
+            <package name="ui.*"/>
         </packages>
     </test>
+
+    <test name="API Tests - DemoWebShop" parallel="methods" thread-count="6">
+        <packages>
+            <package name="api.*"/>
+        </packages>
+    </test>
+
+
 </suite>

@@ -19,12 +19,12 @@ public class CustomAllureListener implements ITestListener {
 
     @Override
     public void onTestFailure(ITestResult result) {
-        attachScreenshot("Failure Screenshot");
+        attachScreenshot(result.getName() + " - FAILURE");
     }
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        attachScreenshot("Success Screenshot");
+        attachScreenshot(result.getName() + " - SUCCESS");
     }
 
     @Override
